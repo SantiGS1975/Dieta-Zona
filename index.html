@@ -1,0 +1,3178 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Dieta Mediterránea y Resultados Metabólicos</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAARcUlEQVR4nN2be5BmRXXAf6e77/ecmZ3dWVZwYd2Vh1HUIMiKIC7ZiBGoUIYSfIFEUkTKUJaxqIiSOKzGV0pSlq4GNaUBHwgbLaNijMCWRKBAJEIpBoHsyooC+2B3dud73nv75I++9/vu983M7szs/KHeqm+3pm933/71OX36nHP7CrNdkxiuRREUYOJDZ2/Ey/macoYg61AdV4wFCfXVZA0FEBQhtBR6dQh1VGeWof2/tdBP+KPft+ZtZulbIVWVfSJmu4jcnVr37caHN2/tNZ6cFDZt8sOoMlzAhRdatmxJASYmz74YK1fieYU4CymoV/AEyN7gB386UF4Ekn67YhvNAWeWDfSZ9TEIL/1JFQPWIsagiUfF3KeezY2Pb/7KMNvsEzC5wbHpzmTl37/6eB+VrjelaCOpop0UVFIQUUHAyGzws0teBgc5NCE9iMOFD2WKoogoaixRBNahcbJVmp0rDnzqc48xOenYtCmZOQEZ/MT7zvpTqtHNYu2EttMEVYMYMwD5uyL5OcrD8wDFg3ipVJymfo92um9s/PNn78hZ+xOQqcbENX+ykbL7nqiUNfEJIq74gN8r+GK/ngTnHGI62u6e2/jk5q05szA5adi0SZddc/ZaV+J/BBnXxKeI2D8IeO2NO8U5q8q+JJWTO9dd9ysmJyU3sVjxN0hkxzPJ/2HAF9uJWE3SRKJo3Kq/Ae3XZuXkxjdRLd+kjSQB3OBgfo/hC333xuNJpFZ32mq/uXHddV8XbrnQrvj53vtNyZ2kncTT29+XEL6wzwP9CRja58O92fb5JYIP7VMplYx24wcbO3ac6iYefvZMrH2ZdlIFawceuBTwhb+9akHCimAIO5cQ7giiisgQ/IwxLBoeEKvdWNW4l5XXrDnT4c0FElk0TjyCXWp49QHQiKHsHCUX4YzFisWIAYRUFe8hTlO6aUqcelLvEQRkSeFzBo9z1rb9BU7hDEmV4NwsBXzu8oZ/yq5MrVyh4ko4YwPUwFLI2vTsA6Q+pRWnNDod2nFCGN3SwAPgEVJFRc5wgqzTFFTEsETw3iuVqMyySp1yVEayCVHNxpipe672YbaE/K4Vx0gpol6q0IlTptotWnEcJuEw4TVolSH1iLLOoSwrbAiHBa+qiBgm6qOMlGsFSWu26wz1mfXR7zeUec0nyVCJIspRiUanw95mk1QVETs0jgXA5+WqgFnmNHdzhwa4UHivSslGrKyPUbKlsK41ZbrTJjKOiivjrAWE1Ps54XXo+WEyYKRUpWxL7Go06CRJsB86OKZ5w+dtpOfjHz58xZV4zshyIhtl8EotKnPBS07npc9dh7OWfa0m+1pNvIKV3B4Mwc+x1XlVnHUcOTpGNSrh/eCYFwyflbnZGy1M7cs2YtXIOIgJcMYw1Zjm/BNfwdtOPZ2yLRPZMg88uY3bf/kz7tr2KHua04yWq0TWkno96FbXA1FFEFbVx9ipB2jFQRMWA58/zy0ePtSzxnLEyDiSwef3vFfOPuEkHtm5g68+cBvf+MsPs2b5Sv7iJevZsXcP//7Qvdx4/10822ywrFLPfIS54XvPVBCEI+pjPHVgP3G+Xc5YwgeXfF5mFguf242J2hjO2EH41DNWGWH1suVc8JKzMMbw9Z/eDkCcJqxZPsF7zjqPb/3Ve/jzE09hbzMsCyMFr3AW+OIYjTFM1EdCvQXCFzkG4vyFwHuvjJSqVKMKSQ8+SCf2ykR9lKOWLUdV+dh5V/Dpu7/JVGsaawxeg6OzdsURfOYNl/JP578JROgkCbZn3GaBL8QSud0ZK1ezyV84fGECCJ0vQPLWWMaqI3jt30UFQUi8Z3l1hLFKDY9y7MRqXn/imUz+4EthzapmE6Gk3vOWU17JjW/9a0bKFVpxNglzwA/sEB6WVao4Y8PwFwgPglGGt55DN/IK9VL/wTl8uB9sQbVUzmqHbe9vN1zEz5/axr1PPIw1Fq8eI4I1hsSnnLpmHV+75ArGKlXaSTLk+fWfP2jwgsEdLVcyLRjWnoMJMfzMgiSfDcaIoV6uzhm6ZmFNuJt14Yxl8rVv5x++/0VS7wteYbiXeM8LjzyKz1x4MQBeMwU9qJMT/JlaqYwVW6g7D46ZRnB+8F6h5EpE1qGeGaoZYjxDsxv3JsIaQ+o9Zz7/pbzgiGP41F3fCEvA97PULtOEV649lg+87nz2t9q9YGkueAAPRNZScdGAIT44R27zijZgHvAh/y5UohIyS518HRoxNLoduklIvubBjFflg6+7jC0P/pAn9j7TK+tPgiX1nktOPY1XPf949rc7GLFzwheXbiWKslJzSPj+JXk2Yj7w0pNoyUZz+vbqITKOPY1pdk3vDwPNYnxVZUVtjL854/W879Yv9MqKV75krn7tOWF7zRfKIbbFsnNIbjwPCj9o8/rb4DzTWMZYnNgBz23YFjhj2ddq8Oiup3oTAPSWwltPOZt20uVbP7urV5ZfRgypKietPppzT3wx+1vtsL6H4HUIzBqLFYP6Q8EXy3MbMJsRnAU+xGeCKURjs0V1IpB4+PET2xi+JOv2o+dezid+eAsHOq1QVtSELHP0tvWnERnHoJLM3LXyZRfc4n69g8Jnxt/MV/Ig4MEUMjlzhbSpQsWVuPPxR0i8x5j+vm4kGL8XrDqGc164ng/d9uVQVqC0Wf2Tj1nDi456Ls1ulguYBb445mAvoGcHDiL5oSUwD/jMCObG76DxvIdqVOJ/n3man+wIWjCg5kZI1XPVWW/kxzse4YEnH+15iPnlvceKsOG44+gkCdILemZC6MDYZrrTM+ALy3fQCB4CPgfvZ3Vnwuf3JLPwN9x/TyiRYq3wR9lFfODsS7jme19CVYdUPVzrn7cWa+xQtFiE70MPqP8h4Ie2QRkIKmbP2weKNPMFBreTQrvsAamH0UqV2x55mId+8+tMzfsSthKM38bjX8aa5av47D3fGTCIks3YcUesZLxaI8mTKEWgoVDZqyI6P8kPGsFhiBnw/Z/3iveaSVEG2w1JSRCS1PORH9yaDbIopb5v8I/nvJ2vPHA7v5na3dOcfAJWjY4yUa+HsLeYIS7YLiEIJfWAHBq+6FcYBmZsbvi8Q+81SEMODp/bgtFKjbu2P87n77kzk3D/9XzuB6waGefy087j/bd+EZOV5b1E1lIvlzPXeCZ86MiQpErqwz41X/gBGzDf11UKwShBbx3NlcYKS8EzXq3x0dv+kx8+/mjm9/cnIVf7y9b/GXtb09z6i/t6ZXmueCAFNgxPiEC7STrTFT4EPGRLYCHv6gRDJ4mD8ZmRjBisWxxiyUS8a8tNPPjkr3vBT18Twv8fOe8yPnbHzTTjTugms4qDAhiEzzW4FacD4z40fKYBC31RKSK0k5ROmtLfduaGz5dCZB2tOOFtX7mBe7Zvw2XbnlcN3p/3vPjItZx13B/z4dtuCl5d5hA1u3FYLjPgw+R205R2lh+cr+TzPsxC4MNl8B4anU7f9z4IfP63V6XsSrTimEu/fCP/du+9mfcWlokIpOp5/2vezH9v+xkP/XYbxhimWi2ebbRwxpG/WRyQtAjTnZi0uFvNQ/L5vVnfCcwNH5wOI4ZGp0ucZgnJOWZ3uO9UlZJ1OGO55rvf5bKvfpXHdu3CmsyN9SHNdfXGN3L1d7+EAL+d2s/uRovImMEALNv/E69Md4KGDOY25oLPOaSQEJkvfKFeqspUuxW0YBafYBg+H4z3QW2X12rc9sgjvP4L/8oHv/9fPL5rN85aROC8F63niJFl3PiTH/DkvgYH2u3Mne7DKyAiTLU6JD5/0zxP+EI9WXb1xTpv+OHMj8LK+hj1UqXgy88NP6wlxliSVNnf7jBeq3La2rVsOO5YTl+3Fmc9zxzYw80PbOOmB37KyvoISerJtzkjhlac8MyBRnB+Bs4THgK+GLgtu/qSkAweUK1Dw+fLQcRw1Og4ztrMah86jVXsVwghduI9zU5M4pXl1Rpj1RrvOOM0Tlt7NBd98Ws0uwmRdZmTFIzmU1MN0p70Fw7fM4KLgc/LvIed0wcy73Bh8Pn/4SyAYaxSYUWthgeeeHYvn7/nXl545Comz3kNjU4cpivbHXYeaJKk/rDgQXALVfviGoSwLXZTzzMHplk1MhrSWrNa5Jnwg4MJrmy+kFbUavxqzz6u/o/v0009JReOLvlU2TndpBOnQ3mJhcOjIGNXX6qLhS/+wl5vWVkfpeyiYBPmDZ/3O1jXiGG63SVVWFat0o4Tdk+36CZLAR843FLAk22Ncep5+sABxis1RsvVgaSnDrc5BDxZ1DlaqaAIU602e5udbBu2Q30uFL7vXbqlgA/t6DlGzzabNLoxyypVqlGpF8VpcWnQL8tjy7w8X+teYboTM9Xq0E7SLOUxdNJswfCDHG4p4Afqq8EIdJOUndMNSq5DPSpTjUo4a7PUVv/ovBQzJdlSir3SijtMd2I6SXC5w/GYwWP5hwufTUDWaJZkwXzhh19X5cZRgG7i6cQtjHSIrKVkHZG1GLE9jfEazhXFqdJNUuJUw1GYzA4M9304a36QQXDhkMMsklwUfP8X1n/432ThbQCMUY2zHF/WTsL7hN42R5YYzT0+zd7gLaHk8wl16tUXj8MvBbxXpdGJiawDhDjpUimVSNI0mxxLkiZYE5ZEmnhstn16nxJZS5xqtlBC1GjN7JHeouD7/XinyJSIWU7RlT0M+Lzs0xe+gdPXrQXg0V27ufzLN/PqE47lLaeenCUvlOvuuIupVpu3vPwknLVE1vKjx5/gvu1P8srnr2FFrQbAnkaL+594eungFRCLolNOxGzH2uXEiQ/6t3h4EaEdp6xdsYIrX/0q8uvkY47mE7ffydl/dALrn3cMe6abPGdshLv/bweP7dzDy9cczbPNFiPlEqlXHn5qNyesWtl75sr6CL98ei97m22cKZwJWiy8ilfnjMbxdofK3WLsyRqOTh6W5DXLEFmxNLsxzoSoMbIWZx1x6plqdTjQ6VBtRVm3QrMb04xDSBsnPvgUSYrP7UmwDksjeSTcNg5I7jbe8E1NUkDMYcHngzWG6U4XgJJzVKMIZwx7G026iWeiXmNFvcZYtcx0J6bZTaiWIsYqFZaVK8SpZm6uoRZF1CKHQJYVHvL7FwMf/jYkCaR8U7jlQjvy4xX3S7l8knYTD2IXBZ/nDEXoxilnnXAcJ61eDQiP797Ddx76BatXjHPGurWICM1uwh2/3EbsPaccs5pqFIEKv3h6F8/sb7B6+Tjj1QqosLfZ5qn9jZ4PoQPjWCg8Ka5qtNt+MN09caoA1P/uijeZSu0mbbYTxLjinrsQ+LyNiKHR7kKSJSqNpVatEicpcTcrEyiXyogY2t2414dzDmctceJDnp9wwMIZ0x/L4iUPSkJl1PlO483+M+/4evhm6NpNWr/qnXeaauVMbXXDx1KLhAfp+etFiaVpUOHiwcY0SwybQjbHQ3YWsJjh0f7r+8OFL9edtps/Sv/lHRuYJFtUAg5zqXaTfTjnCN8ILgo+z9V5VZLsJUrvhYUKiQ8vMHJ4NBy68hreKmuW1+udLtelgtcUGzni7r7UmktDvWuz3rJPyOrvvnKjVErfU6VMks74bG4+8As5nDDvBOZSSN5G4bO5bvvc9Pp3buXCWyxbLkqDBmzZkjI56Rqf3LxVu+3zQPZIpeLwJISPD38/4RWPklCqO8Ts0XbzvPT6d25lw6Rjy0UphV7DlX1WWnrXu453ldL1JiptJPVo+GojRUUg//2OwQfDraiEFYNYXBWsg7i71XQPXNH93LsfY8Ok487ZPp3Nr8IHxvWrrroYY69U5RVY138F2/vCoxhFDg5wAG5IOgPqORf8bGH5weFBLGodGAdJgiL3qepmv/ny7OPpoPZF3JkTAORfk5INuf7e927UVM5HOUNV1wkyHp4Gymwx+izfBA2AFtrNKflCuznh+88CSVXMPsVsR8zdqP12uvmyrb2HTF476+fz/w/uNkXmWcqTDgAAAABJRU5ErkJggg==">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medGreen: { 50: '#f0fdf4', 100: '#dcfce7', 500: '#22c55e', 600: '#16a34a', 700: '#15803d', 800: '#166534' },
+                        medBlue: { 50: '#f0f9ff', 100: '#e0f2fe', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1' },
+                        medAmber: { 50: '#fffbeb', 100: '#fef3c7', 500: '#f59e0b', 600: '#d97706' },
+                        medTerracotta: { 500: '#e05638', 600: '#c84327' }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js para seguimiento del peso -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .gradient-header {
+            background: linear-gradient(135deg, #15803d 0%, #0369a1 100%);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        @media print {
+            .no-print { display: none !important; }
+            .print-only { display: block !important; }
+            body { background: white !important; }
+            .tab-content { display: block !important; }
+        }
+    </style>
+</head>
+<body class="h-full flex flex-col font-sans text-slate-800 bg-slate-50 antialiased">
+
+    <header class="gradient-header text-white shadow-md no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center space-x-3">
+                <div class="w-11 h-11 rounded-2xl bg-white/20 backdrop-blur-md flex items-center justify-center text-white text-2xl shadow-inner border border-white/20">
+                    <i class="fa-solid font-bold fa-leaf"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight">Dieta Mediterránea por Bloques</h1>
+                    <p class="text-xs text-green-100 font-medium">Planificación inteligente, resultados metabólicos y lista de compra</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-3">
+                <div class="flex items-center space-x-3 bg-white/10 backdrop-blur-md px-4 py-2 rounded-xl text-xs border border-white/15">
+                    <div class="text-center px-1">
+                        <span class="block text-[10px] text-slate-200 uppercase tracking-wider">Objetivo Diario</span>
+                        <span id="header-daily-blocks" class="font-bold text-base text-amber-300">15 Bloques</span>
+                    </div>
+                    <div class="h-6 w-px bg-white/20"></div>
+                    <div class="text-center px-1">
+                        <span class="block text-[10px] text-slate-200 uppercase tracking-wider">Total Semanal</span>
+                        <span id="header-weekly-blocks" class="font-bold text-base text-emerald-300">105 Bloques</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-1.5">
+                    <button onclick="exportDataJSON()" title="Exportar Copia de Seguridad JSON" class="p-2 bg-white/15 hover:bg-white/25 rounded-lg text-xs font-semibold backdrop-blur-md transition border border-white/20 flex items-center gap-1">
+                        <i class="fa-solid fa-download"></i>
+                        <span class="hidden sm:inline">Exportar</span>
+                    </button>
+                    <label title="Importar Copia de Seguridad JSON" class="p-2 bg-white/15 hover:bg-white/25 rounded-lg text-xs font-semibold backdrop-blur-md transition border border-white/20 cursor-pointer flex items-center gap-1">
+                        <i class="fa-solid fa-upload"></i>
+                        <span class="hidden sm:inline">Importar</span>
+                        <input type="file" id="import-file-input" accept=".json" class="hidden" onchange="importDataJSON(event)">
+                    </label>
+                    <button onclick="resetAllToDefault()" title="Reiniciar Datos" class="p-2 bg-rose-500/30 hover:bg-rose-500/50 rounded-lg text-xs font-semibold backdrop-blur-md transition border border-white/20">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-white border-b border-slate-200 sticky top-0 z-20 shadow-sm no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-1 sm:space-x-6 overflow-x-auto custom-scrollbar">
+            <button onclick="switchTab('tab-calc')" id="btn-tab-calc" class="tab-btn active py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-medGreen-600 text-medGreen-700 whitespace-nowrap">
+                <i class="fa-solid fa-calculator"></i>
+                <span>1. Calculadora</span>
+            </button>
+            <button onclick="switchTab('tab-matrix')" id="btn-tab-matrix" class="tab-btn py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-transparent text-slate-500 hover:text-slate-700 whitespace-nowrap">
+                <i class="fa-solid fa-cubes"></i>
+                <span>2. Bloques</span>
+            </button>
+            <button onclick="switchTab('tab-guide')" id="btn-tab-guide" class="tab-btn py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-transparent text-slate-500 hover:text-slate-700 whitespace-nowrap">
+                <i class="fa-solid fa-book-open"></i>
+                <span>3. Alimentos</span>
+            </button>
+            <button onclick="switchTab('tab-menu')" id="btn-tab-menu" class="tab-btn py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-transparent text-slate-500 hover:text-slate-700 whitespace-nowrap">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>4. Menú Semanal</span>
+            </button>
+            <button onclick="switchTab('tab-grocery')" id="btn-tab-grocery" class="tab-btn py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-transparent text-slate-500 hover:text-slate-700 whitespace-nowrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>5. Lista de la Compra</span>
+            </button>
+            <button onclick="switchTab('tab-chart')" id="btn-tab-chart" class="tab-btn py-3.5 px-3 border-b-2 font-semibold text-xs sm:text-sm flex items-center space-x-2 border-transparent text-slate-500 hover:text-slate-700 whitespace-nowrap">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>6. Progreso y Objetivos</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+        <!-- TAB 1: CALCULADORA -->
+        <section id="tab-calc" class="tab-content active space-y-6">
+            <div class="max-w-2xl mx-auto">
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <div class="flex items-center space-x-2 mb-4 text-medGreen-700">
+                            <i class="fa-solid fa-user-gear text-xl"></i>
+                            <h2 class="text-lg font-bold text-slate-800">Parámetros Personales</h2>
+                        </div>
+
+                        <div class="space-y-3.5 text-xs">
+                            <div>
+                                <label class="block font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-venus-mars text-medGreen-600"></i>
+                                    <span>Sexo Biológico</span>
+                                </label>
+                                <select id="calc-sex" onchange="recalculateAll()" class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-medGreen-500 focus:outline-none bg-white">
+                                    <option value="male" selected>Hombre</option>
+                                    <option value="female">Mujer</option>
+                                </select>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-2">
+                                <div>
+                                    <label class="block font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                                        <i class="fa-solid fa-weight-scale text-medGreen-600"></i>
+                                        <span>Peso (kg)</span>
+                                    </label>
+                                    <input type="number" id="calc-weight" value="75" step="0.5" onchange="recalculateAll()" class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-medGreen-500 focus:outline-none font-semibold text-slate-800">
+                                </div>
+                                <div>
+                                    <label class="block font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                                        <i class="fa-solid fa-ruler-vertical text-medGreen-600"></i>
+                                        <span>Altura (cm)</span>
+                                    </label>
+                                    <input type="number" id="calc-height" value="175" step="1" onchange="recalculateAll()" class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-medGreen-500 focus:outline-none font-semibold text-slate-800">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-2">
+                                <div>
+                                    <label class="block font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                                        <i class="fa-solid fa-cake-candles text-medGreen-600"></i>
+                                        <span>Edad (años)</span>
+                                    </label>
+                                    <input type="number" id="calc-age" value="35" step="1" onchange="recalculateAll()" class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-medGreen-500 focus:outline-none font-semibold text-slate-800">
+                                </div>
+                                
+                                <div>
+                                    <label class="block font-semibold text-slate-700 mb-1 flex items-center gap-1.5">
+                                        <i class="fa-solid fa-person-running text-medGreen-600"></i>
+                                        <span>Nivel Actividad</span>
+                                    </label>
+                                    <div class="flex gap-1">
+                                        <select id="calc-activity" onchange="recalculateAll()" class="w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-medGreen-500 focus:outline-none bg-white">
+                                            <option value="1.2">Sedentario (1.2)</option>
+                                            <option value="1.375" selected>Ligero / Moderado (1.375)</option>
+                                            <option value="1.55">Activo (1.55)</option>
+                                            <option value="1.725">Muy activo (1.725)</option>
+                                            <option value="1.9">Atleta (1.9)</option>
+                                            <option value="custom" class="hidden" id="opt-custom-activity">Personalizado (Exhaustivo)</option>
+                                        </select>
+                                        <button type="button" onclick="openActivityModal()" title="Cálculo Exhaustivo por Horas (Crear y gestionar actividades)" class="px-3 py-2 bg-medBlue-50 hover:bg-medBlue-100 text-medBlue-600 rounded-xl border border-medBlue-200 transition">
+                                            <i class="fa-solid fa-stopwatch"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-3 border-slate-200">
+
+                            <div class="bg-amber-50 p-3.5 rounded-xl border border-amber-100">
+                                <h4 class="font-bold text-amber-800 text-xs mb-2 flex items-center gap-1.5"><i class="fa-solid fa-scale-unbalanced"></i> Composición Corporal (Dieta de la Zona)</h4>
+
+                                <div class="mb-3">
+                                    <label class="block font-semibold text-slate-700 mb-1 text-[11px]">% Grasa Corporal</label>
+                                    <div class="flex items-center gap-1">
+                                        <input type="number" id="calc-bodyfat-input" step="0.1" min="0" max="70" onchange="onBodyFatInputChange(this.value)" class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-xs font-bold text-slate-800 focus:ring-2 focus:ring-medGreen-500 focus:outline-none">
+                                        <button type="button" onclick="resetBodyFatToCalculated()" title="Restablecer al valor calculado (Deurenberg)" class="text-slate-400 hover:text-medBlue-600 px-1.5 py-1.5 border border-slate-200 rounded-lg shrink-0">
+                                            <i class="fa-solid fa-arrows-rotate text-[11px]"></i>
+                                        </button>
+                                    </div>
+                                    <p class="text-[10px] text-slate-400 mt-1">Fórmula de Deurenberg: <span id="calc-bodyfat-calculated" class="font-semibold text-slate-500">--</span>% · edítalo si lo mediste por otro método</p>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-2 text-center text-[11px]">
+                                    <div class="bg-white p-2 rounded-lg border border-amber-100 shadow-sm flex flex-col justify-center">
+                                        <span class="text-slate-500 font-medium">Peso Magro</span>
+                                        <span id="calc-res-leanmass" class="font-bold text-slate-800 text-sm">--</span>
+                                    </div>
+                                    <div class="bg-white p-2 rounded-lg border border-amber-100 shadow-sm flex flex-col justify-center">
+                                        <span class="text-slate-500 font-medium">Factor (= PAL)</span>
+                                        <span id="calc-res-protein-factor" class="font-bold text-slate-800 text-sm">--</span>
+                                    </div>
+                                    <div class="bg-white p-2 rounded-lg border border-amber-300 shadow-sm ring-1 ring-amber-400/30 flex flex-col justify-center">
+                                        <span class="text-amber-800 font-bold">Proteína Diaria</span>
+                                        <span id="calc-res-protein" class="font-extrabold text-amber-700 text-sm">--</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: MATRIZ Y BLOQUES -->
+        <section id="tab-matrix" class="tab-content space-y-6">
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="space-y-6">
+                    <!-- CONFIGURACIÓN DE GRAMOS POR BLOQUE -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2 text-medGreen-700">
+                                <i class="fa-solid fa-sliders text-xl"></i>
+                                <h2 class="text-lg font-bold text-slate-800">Composición del Bloque</h2>
+                            </div>
+                            <span id="block-kcal-badge" class="text-xs bg-medGreen-100 text-medGreen-800 font-bold px-2.5 py-1 rounded-full border border-medGreen-200">
+                                91 Kcal / Bloque
+                            </span>
+                        </div>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Personaliza los gramos de macronutrientes que definen la equivalencia de 1 bloque patrón:
+                        </p>
+                        
+                        <div class="grid grid-cols-3 gap-2.5 text-xs">
+                            <div>
+                                <label class="block font-bold text-emerald-800 mb-1 flex items-center justify-between">
+                                    <span><i class="fa-solid fa-drumstick-bite mr-1"></i>Proteína</span>
+                                </label>
+                                <div class="relative">
+                                    <input type="number" id="block-prot-input" min="1" max="50" step="0.5" value="7" onchange="updateBlockConfig()" class="w-full px-2.5 py-2 border border-emerald-300 rounded-xl font-extrabold text-emerald-900 bg-emerald-50/60 text-center focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+                                    <span class="text-[10px] text-emerald-600 font-bold block text-center mt-0.5">g / bloque</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block font-bold text-amber-800 mb-1 flex items-center justify-between">
+                                    <span><i class="fa-solid fa-wheat-awn mr-1"></i>Carb.</span>
+                                </label>
+                                <div class="relative">
+                                    <input type="number" id="block-carb-input" min="1" max="50" step="0.5" value="9" onchange="updateBlockConfig()" class="w-full px-2.5 py-2 border border-amber-300 rounded-xl font-extrabold text-amber-900 bg-amber-50/60 text-center focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                                    <span class="text-[10px] text-amber-600 font-bold block text-center mt-0.5">g / bloque</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block font-bold text-sky-800 mb-1 flex items-center justify-between">
+                                    <span><i class="fa-solid fa-bottle-droplet mr-1"></i>Grasa</span>
+                                </label>
+                                <div class="relative">
+                                    <input type="number" id="block-fat-input" min="1" max="50" step="0.5" value="3" onchange="updateBlockConfig()" class="w-full px-2.5 py-2 border border-sky-300 rounded-xl font-extrabold text-sky-900 bg-sky-50/60 text-center focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                    <span class="text-[10px] text-sky-600 font-bold block text-center mt-0.5">g / bloque</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-200 text-[11px] text-slate-600 flex justify-between items-center">
+                            <span class="font-medium text-slate-500">Aporte energético / bloque:</span>
+                            <span id="block-kcal-breakdown" class="font-mono font-bold text-slate-800 text-[11px]">(7g×4) + (9g×4) + (3g×9) = 91 Kcal</span>
+                        </div>
+                    </div>
+
+                    <!-- TARJETA: CÁLCULO DE BLOQUES Y CONTRASTE DE KCAL DIARIAS -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <div class="flex items-center space-x-2 mb-4 text-emerald-700">
+                            <i class="fa-solid fa-cubes text-xl"></i>
+                            <h2 class="text-lg font-bold text-slate-800">Bloques Recomendados y Ajuste</h2>
+                        </div>
+                        
+                        <!-- Bloques Recomendados con Selección y Botones de Incrementar / Decrementar -->
+                        <div class="bg-emerald-50 p-4 rounded-xl border border-emerald-200 space-y-3">
+                            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+                                <div>
+                                    <span class="font-bold text-emerald-950 text-sm block">Bloques Diarios Activos</span>
+                                    <span class="text-[11px] text-emerald-700 font-medium">Puedes cambiar libremente este número</span>
+                                </div>
+                                <div class="flex items-center space-x-2 self-end sm:self-auto">
+                                    <button onclick="adjustBlocks(-1)" title="Restar 1 bloque" class="w-8 h-8 rounded-lg bg-emerald-200 hover:bg-emerald-300 active:scale-95 text-emerald-900 font-bold text-base flex items-center justify-center transition shadow-sm border border-emerald-300">
+                                        <i class="fa-solid fa-minus text-xs"></i>
+                                    </button>
+                                    <div class="relative flex items-center">
+                                        <input type="number" id="manual-blocks-input" min="1" max="60" value="15" onchange="onManualBlocksInputChange(this.value)" class="w-16 h-9 text-center font-extrabold text-lg text-medGreen-800 border-2 border-medGreen-500 rounded-xl bg-white focus:ring-2 focus:ring-emerald-500 focus:outline-none shadow-inner">
+                                    </div>
+                                    <button onclick="adjustBlocks(1)" title="Sumar 1 bloque" class="w-8 h-8 rounded-lg bg-emerald-200 hover:bg-emerald-300 active:scale-95 text-emerald-900 font-bold text-base flex items-center justify-center transition shadow-sm border border-emerald-300">
+                                        <i class="fa-solid fa-plus text-xs"></i>
+                                    </button>
+                                    <span class="font-bold text-emerald-800 text-xs">bq/día</span>
+                                </div>
+                            </div>
+                            
+                            <div class="text-[11px] text-emerald-800/80 bg-white/70 p-2 rounded-lg border border-emerald-200/60 flex justify-between items-center">
+                                <span>Sugerido por Calculadora:</span>
+                                <div class="flex items-center gap-2">
+                                    <span id="auto-recommended-label" class="font-bold text-emerald-900">15 bq/día</span>
+                                    <button onclick="resetToAutoRecommended()" title="Restablecer al sugerido por la calculadora" class="text-[10px] font-bold text-medGreen-700 hover:text-medGreen-800 bg-medGreen-100 hover:bg-medGreen-200 px-2 py-0.5 rounded-lg border border-medGreen-300 transition flex items-center gap-1">
+                                        <i class="fa-solid fa-rotate-left"></i>
+                                        <span>Usar</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-3 gap-2 mt-3 text-[11px] text-center font-bold">
+                            <div class="text-emerald-800 bg-emerald-100/70 py-1.5 rounded-lg border border-emerald-200">Prot: <span id="calc-res-prot">--</span>g</div>
+                            <div class="text-amber-800 bg-amber-100/70 py-1.5 rounded-lg border border-amber-200">Carb: <span id="calc-res-carb">--</span>g</div>
+                            <div class="text-sky-800 bg-sky-100/70 py-1.5 rounded-lg border border-sky-200">Grasa: <span id="calc-res-fat">--</span>g</div>
+                        </div>
+
+                        <!-- KCAL/DÍA SEGÚN BLOQUES -->
+                        <div class="mt-4 p-3.5 bg-gradient-to-br from-slate-50 to-emerald-50/30 rounded-xl border border-slate-200">
+                            <div class="flex items-center justify-between">
+                                <h4 class="font-bold text-xs text-slate-800 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-fire-flame-curved text-medBlue-600"></i>
+                                    <span>Kcal/día según Bloques</span>
+                                </h4>
+                                <div class="text-right">
+                                    <span id="contrast-blocks-kcal" class="font-extrabold text-lg text-medGreen-700">1.365 Kcal</span>
+                                    <span id="contrast-blocks-formula" class="block text-[9px] text-slate-400">(15 bq × 91 kcal)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3">
+                        <div class="flex justify-between items-center">
+                            <h3 class="font-bold text-slate-800 text-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-utensils text-medBlue-600"></i>
+                                Reparto por Ingesta Diaria
+                            </h3>
+                            <button onclick="resetMealDistribution()" class="px-3 py-1.5 bg-medBlue-50 hover:bg-medBlue-100 text-medBlue-700 text-[11px] font-bold rounded-lg border border-medBlue-200 transition flex items-center gap-1.5">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Sugerido</span>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500">Ajusta los bloques asignados a cada momento del día (suma actual: <span id="meal-dist-sum" class="font-bold text-slate-800">15</span>/día · suma % <span id="meal-dist-pct-sum" class="font-bold text-slate-800">100</span>%)</p>
+                        
+                        <div class="space-y-2 text-xs" id="meal-distribution-inputs">
+                            <!-- Inyectado por JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: GUÍA DE GRAMOS -->
+        <section id="tab-guide" class="tab-content space-y-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="flex flex-col md:flex-row md:items-center justify-between pb-4 border-b border-slate-200 gap-4">
+                    <div>
+                        <h2 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+                            <i class="fa-solid fa-scale-balanced text-medGreen-600"></i>
+                            <span>Tabla de Equivalencias en Gramos para 1 Bloque</span>
+                        </h2>
+                        <p id="guide-subtitle" class="text-xs text-slate-500">Equivalencias de 1 bloque (7g Prot, 9g HC, 3g Grasa).</p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2">
+                        <div class="relative">
+                            <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-slate-400 text-xs"></i>
+                            <input type="text" id="guide-search" placeholder="Buscar alimento..." oninput="renderFoodGuide()" class="pl-8 pr-3 py-1.5 border border-slate-300 rounded-xl text-xs w-40 sm:w-52 focus:ring-2 focus:ring-medGreen-500 focus:outline-none">
+                        </div>
+                        <select id="guide-filter-cat" onchange="renderFoodGuide()" class="px-3 py-1.5 border border-slate-300 rounded-xl text-xs font-semibold text-slate-700">
+                            <option value="all">Todas</option>
+                            <option value="prot">Proteínas</option>
+                            <option value="carb">Carbohidratos</option>
+                            <option value="fat">Grasas</option>
+                        </select>
+                        <div class="relative">
+                            <button onclick="event.stopPropagation(); toggleSubgroupCreator();" class="px-3 py-1.5 bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-1.5">
+                                <i class="fa-solid fa-layer-group text-medGreen-600"></i>
+                                <span>Gestionar Subgrupos</span>
+                            </button>
+                            <div id="subgroup-creator-panel" class="hidden absolute right-0 top-full mt-1 bg-white border border-slate-300 rounded-xl shadow-lg p-3 z-20 w-72 text-left normal-case font-normal" onclick="event.stopPropagation();">
+                                <div class="flex items-center justify-between mb-2">
+                                    <p class="text-[11px] text-slate-500 font-semibold">Gestionar subgrupos</p>
+                                    <button onclick="document.getElementById('subgroup-creator-panel').classList.add('hidden');" class="text-slate-300 hover:text-slate-500">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
+                                <div id="subgroup-manager-list" class="space-y-1 max-h-52 overflow-y-auto custom-scrollbar pr-1 mb-2">
+                                    <!-- Inyectado por JS -->
+                                </div>
+                                <div class="flex gap-1.5 pt-2 border-t border-slate-100">
+                                    <select id="new-subgroup-cat" class="px-1.5 py-1.5 border border-slate-300 rounded-lg text-[11px] text-slate-700 focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                        <option value="prot">Prot.</option>
+                                        <option value="carb">Carb.</option>
+                                        <option value="fat">Grasa</option>
+                                    </select>
+                                    <input type="text" id="new-subgroup-input" placeholder="Nuevo subgrupo..." onkeydown="if(event.key==='Enter'){createSubgroup();}" class="flex-1 min-w-0 px-2 py-1.5 border border-slate-300 rounded-lg text-xs font-normal text-slate-700 focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                    <button onclick="createSubgroup()" class="px-2.5 py-1.5 bg-medGreen-600 hover:bg-medGreen-700 text-white rounded-lg text-xs font-bold shrink-0">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <button onclick="addFoodItem()" class="px-3 py-1.5 bg-medGreen-600 hover:bg-medGreen-700 text-white text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Añadir Alimento</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto custom-scrollbar mt-4 max-h-[600px]">
+                    <table class="w-full text-xs text-left border-collapse min-w-[1120px]">
+                        <thead class="sticky top-0 bg-slate-100 z-10">
+                            <tr class="text-slate-700 font-bold border-b border-slate-200">
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('cat')"><i class="fa-solid fa-utensils mr-1 text-slate-500"></i>Macronutriente<span id="sort-icon-cat" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('sub')"><i class="fa-solid fa-layer-group mr-1 text-slate-500"></i>Subgrupo<span id="sort-icon-sub" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('food')"><i class="fa-solid fa-apple-whole mr-1 text-slate-500"></i>Alimento<span id="sort-icon-food" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('grams')"><i class="fa-solid fa-scale-balanced mr-1 text-slate-500"></i>Gramos / 1 Bloque<span id="sort-icon-grams" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('measure')"><i class="fa-solid fa-spoon mr-1 text-slate-500"></i>Medida Casera<span id="sort-icon-measure" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3 cursor-pointer select-none hover:text-medGreen-700" onclick="sortFoodGuide('note')"><i class="fa-solid fa-circle-info mr-1 text-slate-500"></i>Notas<span id="sort-icon-note" class="ml-1 text-slate-300"><i class="fa-solid fa-sort"></i></span></th>
+                                <th class="p-3"><i class="fa-solid fa-clock mr-1 text-slate-500"></i>Tomas Permitidas</th>
+                                <th class="p-3"><i class="fa-solid fa-link mr-1 text-slate-500"></i>Bloque Adicional</th>
+                                <th class="p-3 w-8"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="food-guide-table-body" class="divide-y divide-slate-100 bg-white">
+                            <!-- Inyectado por JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: MENÚ SEMANAL -->
+        <section id="tab-menu" class="tab-content space-y-6">
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 no-print">
+                <div class="flex flex-wrap items-center gap-3">
+                    <button onclick="autoFillAllWeeklyMenu()" class="px-4 py-2.5 bg-gradient-to-r from-medGreen-600 to-medBlue-600 hover:from-medGreen-700 hover:to-medBlue-700 text-white font-bold text-sm rounded-xl shadow-md transition flex items-center gap-2">
+                        <i class="fa-solid fa-wand-magic-sparkles text-amber-300"></i>
+                        <span>Autocompletar Todo (Inteligente)</span>
+                    </button>
+                    <button onclick="clearWeeklyMenu()" class="px-3 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-semibold rounded-xl transition border border-slate-300">
+                        <i class="fa-solid fa-trash-can mr-1"></i> Limpiar
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200 gap-2">
+                    <div>
+                        <h2 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+                            <i class="fa-solid fa-chart-pie text-medBlue-600"></i>
+                            Tabla Subgrupos Dieta Mediterránea
+                        </h2>
+                        <p class="text-xs text-slate-500">Objetivo (%) vs. cumplimiento real según el menú semanal generado</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 text-xs">
+                    <div class="bg-emerald-50/50 p-3.5 rounded-xl border border-emerald-100">
+                        <h3 class="font-bold text-emerald-800 border-b border-emerald-200 pb-1.5 mb-2 flex justify-between">
+                            <span><i class="fa-solid fa-drumstick-bite mr-1"></i> Proteínas</span>
+                            <span id="pct-sum-prot" class="text-emerald-700 font-mono">100%</span>
+                        </h3>
+                        <p id="total-blocks-prot" class="text-[10px] text-slate-500 mb-2 font-mono">Total: -- bq obj · -- bq real</p>
+                        <ul id="list-prot" class="grid gap-y-0.5" style="grid-template-columns: minmax(0,1fr) 40px 38px 14px 38px 42px 60px;"></ul>
+                    </div>
+
+                    <div class="bg-amber-50/50 p-3.5 rounded-xl border border-amber-100">
+                        <h3 class="font-bold text-amber-800 border-b border-amber-200 pb-1.5 mb-2 flex justify-between">
+                            <span><i class="fa-solid fa-wheat-awn mr-1"></i> Carbohidratos</span>
+                            <span id="pct-sum-carb" class="text-amber-700 font-mono">100%</span>
+                        </h3>
+                        <p id="total-blocks-carb" class="text-[10px] text-slate-500 mb-2 font-mono">Total: -- bq obj · -- bq real</p>
+                        <ul id="list-carb" class="grid gap-y-0.5" style="grid-template-columns: minmax(0,1fr) 40px 38px 14px 38px 42px 60px;"></ul>
+                    </div>
+
+                    <div class="bg-sky-50/50 p-3.5 rounded-xl border border-sky-100">
+                        <h3 class="font-bold text-sky-800 border-b border-sky-200 pb-1.5 mb-2 flex justify-between">
+                            <span><i class="fa-solid fa-bottle-droplet mr-1"></i> Grasas Saludables</span>
+                            <span id="pct-sum-fat" class="text-sky-700 font-mono">100%</span>
+                        </h3>
+                        <p id="total-blocks-fat" class="text-[10px] text-slate-500 mb-2 font-mono">Total: -- bq obj · -- bq real</p>
+                        <ul id="list-fat" class="grid gap-y-0.5" style="grid-template-columns: minmax(0,1fr) 40px 38px 14px 38px 42px 60px;"></ul>
+                    </div>
+                </div>
+
+                <div id="kcal-global-summary" class="mt-4 p-3.5 bg-slate-800 rounded-xl text-white flex flex-wrap items-center justify-between gap-3 text-xs">
+                    <!-- Inyectado por JS -->
+                </div>
+
+                <div class="mt-3 p-3.5 bg-slate-50 rounded-xl border border-slate-200 flex items-center gap-2 text-xs">
+                    <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+                    <span class="font-medium text-slate-700">Patrón Cardio-Protector Mediterráneo:</span>
+                    <span class="text-slate-500">Rico en AOVE, Verduras, Pescado Azul y Frutos Secos</span>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-2 no-print">
+                <h3 class="font-bold text-slate-800 text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-calendar-day text-medGreen-600"></i>
+                    Menú del Día
+                </h3>
+                <div class="flex items-center space-x-2">
+                    <span class="text-xs font-medium text-slate-500 flex items-center gap-1.5">
+                        <i class="fa-regular fa-calendar-days text-slate-400"></i>
+                        <span>Día visible:</span>
+                    </span>
+                    <select id="menu-day-select" class="px-3 py-1.5 border border-slate-300 rounded-xl text-sm font-semibold text-slate-700 focus:ring-2 focus:ring-medGreen-500 bg-white" onchange="renderWeeklyMenu()">
+                        <option value="Lunes">Lunes</option>
+                        <option value="Martes">Martes</option>
+                        <option value="Miercoles">Miércoles</option>
+                        <option value="Jueves">Jueves</option>
+                        <option value="Viernes">Viernes</option>
+                        <option value="Sabado">Sábado</option>
+                        <option value="Domingo">Domingo</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="weekly-menu-container" class="space-y-4">
+                <!-- Se inyecta el menú del día seleccionado por JS -->
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200 gap-2 no-print">
+                    <div>
+                        <h2 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+                            <i class="fa-solid fa-table-list text-medBlue-600"></i>
+                            Menú Semanal Completo
+                        </h2>
+                        <p class="text-xs text-slate-500">Una fila por toma con sus bloques, en la vista que elijas</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <select id="weekly-table-view-select" onchange="setWeeklyTableViewMode(this.value)" class="px-3 py-2 border border-slate-300 rounded-xl text-xs font-semibold text-slate-700 bg-white focus:ring-2 focus:ring-medGreen-500">
+                            <option value="recipe">Vista por Receta</option>
+                            <option value="subgroups">Vista por Subgrupos</option>
+                        </select>
+                        <button onclick="printWeeklyRecipeTable()" class="px-3 py-2 bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold rounded-xl shadow-sm transition flex items-center gap-1.5">
+                            <i class="fa-solid fa-print"></i>
+                            <span>Imprimir</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="weekly-recipe-table" class="overflow-x-auto custom-scrollbar mt-2">
+                    <!-- Inyectado por JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 5: LISTA DE LA COMPRA -->
+        <section id="tab-grocery" class="tab-content space-y-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="flex justify-between items-center pb-4 border-b border-slate-200 mb-4">
+                    <div>
+                        <h2 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+                            <i class="fa-solid fa-basket-shopping text-medGreen-600"></i>
+                            Lista de la Compra Semanal
+                        </h2>
+                        <p class="text-xs text-slate-500">Calculada a partir de los subgrupos y el menú semanal generado.</p>
+                    </div>
+                    <button onclick="printGroceryList()" class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-xl transition border border-slate-300 flex items-center gap-1.5 no-print">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Imprimir Lista</span>
+                    </button>
+                </div>
+
+                <div id="grocery-list-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Inyectado por JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 6: PROGRESO Y OBJETIVOS -->
+        <section id="tab-chart" class="tab-content space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Tarjeta IMC -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-base font-bold text-slate-800 flex items-center gap-2">
+                                    <i class="fa-solid fa-weight-scale text-medGreen-600"></i>
+                                    Índice de Masa Corporal (IMC)
+                                </h3>
+                                <p class="text-xs text-slate-500">Calculado según el peso actual y altura</p>
+                            </div>
+                            <span id="imc-status-badge" class="px-3 py-1 rounded-full text-xs font-bold border bg-emerald-50 text-emerald-700 border-emerald-200">
+                                --
+                            </span>
+                        </div>
+
+                        <div class="flex items-baseline space-x-2 my-2">
+                            <span id="imc-value" class="text-3xl font-extrabold text-slate-800">--</span>
+                            <span class="text-xs text-slate-500 font-medium">kg/m²</span>
+                        </div>
+
+                        <!-- Escala de Colores con Flecha Indicadora -->
+                        <div class="mt-5 mb-2">
+                            <div class="relative pt-6 pb-2">
+                                <div id="imc-arrow-container" class="absolute top-0 transition-all duration-500 transform -translate-x-1/2 flex flex-col items-center" style="left: 0%;">
+                                    <span id="imc-arrow-label" class="text-[10px] font-bold text-slate-700 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-300 shadow-sm whitespace-nowrap">--</span>
+                                    <i class="fa-solid fa-caret-down text-slate-800 text-lg leading-none mt-0.5"></i>
+                                </div>
+
+                                <div class="h-4 w-full rounded-full overflow-hidden flex shadow-inner border border-slate-200/60 bg-slate-100">
+                                    <div class="bg-sky-400 h-full" style="width: 14%;" title="Delgadez (&lt; 18.5)"></div>
+                                    <div class="bg-emerald-500 h-full" style="width: 26%;" title="Normopeso (18.5 - 24.9)"></div>
+                                    <div class="bg-amber-400 h-full" style="width: 20%;" title="Sobrepeso (25.0 - 29.9)"></div>
+                                    <div class="bg-orange-500 h-full" style="width: 20%;" title="Obesidad I (30.0 - 34.9)"></div>
+                                    <div class="bg-rose-600 h-full" style="width: 20%;" title="Obesidad II y III (≥ 35.0)"></div>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-5 text-[10px] text-center text-slate-500 font-medium mt-1 gap-0.5">
+                                <span class="truncate" title="&lt;18.5 Delgadez">&lt;18.5<br><span class="text-[9px] text-sky-600 font-semibold">Delgadez</span></span>
+                                <span class="truncate" title="18.5-24.9 Normal">18.5-24.9<br><span class="text-[9px] text-emerald-600 font-semibold">Normal</span></span>
+                                <span class="truncate" title="25-29.9 Sobrepeso">25-29.9<br><span class="text-[9px] text-amber-600 font-semibold">Sobrepeso</span></span>
+                                <span class="truncate" title="30-34.9 Obesidad I">30-34.9<br><span class="text-[9px] text-orange-600 font-semibold">Obesidad I</span></span>
+                                <span class="truncate" title="≥35 Obesidad II/III">≥35<br><span class="text-[9px] text-rose-600 font-semibold">Ob. II/III</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 pt-3 border-t border-slate-100 text-[11px] text-slate-500 flex justify-between items-center">
+                        <span>Rango Saludable OMS:</span>
+                        <span class="font-bold text-emerald-700">18.5 - 24.9 kg/m²</span>
+                    </div>
+                </div>
+
+                <!-- Tarjeta % Grasa Corporal Graduada -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="text-base font-bold text-slate-800 flex items-center gap-2">
+                                    <i class="fa-solid fa-percent text-medBlue-600"></i>
+                                    % Grasa Corporal Estimado
+                                </h3>
+                                <p class="text-xs text-slate-500">Estimación metabólica (Fórmula de Deurenberg)</p>
+                            </div>
+                            <span id="fat-status-badge" class="px-3 py-1 rounded-full text-xs font-bold border bg-blue-50 text-blue-700 border-blue-200">
+                                --
+                            </span>
+                        </div>
+
+                        <div class="flex items-baseline space-x-2 my-2">
+                            <span id="fat-value" class="text-3xl font-extrabold text-slate-800">--</span>
+                            <span class="text-xs text-slate-500 font-medium">% de grasa</span>
+                        </div>
+
+                        <div class="mt-5 mb-2">
+                            <div class="relative pt-6 pb-2">
+                                <div id="fat-arrow-container" class="absolute top-0 transition-all duration-500 transform -translate-x-1/2 flex flex-col items-center" style="left: 0%;">
+                                    <span id="fat-arrow-label" class="text-[10px] font-bold text-slate-700 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-300 shadow-sm whitespace-nowrap">--</span>
+                                    <i class="fa-solid fa-caret-down text-slate-800 text-lg leading-none mt-0.5"></i>
+                                </div>
+
+                                <div id="fat-bar-segments" class="h-4 w-full rounded-full overflow-hidden flex shadow-inner border border-slate-200/60 bg-slate-100">
+                                    <!-- Inyectado por JS -->
+                                </div>
+                            </div>
+
+                            <div id="fat-legend-grid" class="grid grid-cols-5 text-[10px] text-center text-slate-500 font-medium mt-1 gap-0.5">
+                                <!-- Inyectado por JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 pt-3 border-t border-slate-100 text-[11px] text-slate-500 flex items-center justify-between">
+                        <span id="fat-ref-fitness" class="font-semibold text-slate-700">Atleta/Fitness: --</span>
+                        <span id="fat-ref-acceptable" class="font-semibold text-slate-700">Aceptable: --</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <h2 class="text-lg font-bold text-slate-800 flex items-center gap-2 mb-4">
+                    <i class="fa-solid fa-chart-line text-medBlue-600"></i>
+                    Progreso de Peso
+                </h2>
+                
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="w-full md:w-1/3 flex flex-col gap-4">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                            <h3 class="font-bold text-sm mb-3 flex items-center gap-1.5">
+                                <i class="fa-solid fa-plus-circle text-medGreen-600"></i>
+                                <span>Registrar Nuevo Peso</span>
+                            </h3>
+                            <div class="flex gap-2">
+                                <input type="date" id="chart-date" class="w-full px-2 py-1.5 border border-slate-300 rounded-lg text-xs">
+                                <input type="number" id="chart-weight-val" step="0.1" placeholder="Kg" class="w-20 px-2 py-1.5 border border-slate-300 rounded-lg text-xs font-bold text-slate-800">
+                                <button onclick="addWeightRecord()" class="px-3 py-1.5 bg-medGreen-600 hover:bg-medGreen-700 text-white rounded-lg text-xs font-bold transition">Guardar</button>
+                            </div>
+                        </div>
+                        <div class="overflow-y-auto max-h-[300px] custom-scrollbar border border-slate-200 rounded-xl">
+                            <table class="w-full text-xs text-left">
+                                <thead class="bg-slate-100 sticky top-0">
+                                    <tr>
+                                        <th class="p-2"><i class="fa-regular fa-calendar mr-1 text-slate-400"></i>Fecha</th>
+                                        <th class="p-2"><i class="fa-solid fa-weight-scale mr-1 text-slate-400"></i>Peso (kg)</th>
+                                        <th class="p-2"><i class="fa-solid fa-sliders mr-1 text-slate-400"></i>Acción</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="weight-history-body" class="divide-y divide-slate-100">
+                                    <!-- Inyectado por JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3 h-[400px] border border-slate-200 rounded-xl bg-white p-4 relative">
+                        <canvas id="progressChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL DE CÁLCULO EXHAUSTIVO DE ACTIVIDAD -->
+    <div id="modal-activity" class="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-2xl shadow-xl w-full max-w-3xl overflow-hidden flex flex-col max-h-[95vh]">
+            <div class="bg-medBlue-600 p-4 flex justify-between items-center text-white">
+                <h3 class="font-bold text-lg flex items-center gap-2">
+                    <i class="fa-solid fa-stopwatch"></i> Cálculo Exhaustivo de Actividad y Creación de Tareas
+                </h3>
+                <button onclick="closeActivityModal()" class="text-white hover:text-slate-200 transition">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-4 bg-blue-50 border-b border-blue-100 text-xs text-blue-900 flex flex-col gap-2">
+                <div class="flex items-start gap-2">
+                    <i class="fa-solid fa-circle-info mt-0.5 text-blue-600"></i>
+                    <p>Calcula tu PAL exacto desglosando las 24 horas del día. Si falta alguna actividad, trabajo doméstico u oficio, puedes <strong>crear una nueva actividad</strong> abajo especificando su nombre y su valor MET.</p>
+                </div>
+
+                <div class="bg-white p-3 rounded-xl border border-blue-200 flex flex-col sm:flex-row items-center gap-2 mt-1">
+                    <div class="w-full sm:w-auto flex-1">
+                        <label class="block text-[10px] font-bold text-slate-600 uppercase mb-0.5">Nombre de la Actividad / Tarea</label>
+                        <input type="text" id="new-act-name" placeholder="Ej. Jardinería intensiva, Cuidado de niños..." class="w-full px-2.5 py-1.5 border border-slate-300 rounded-lg text-xs focus:ring-2 focus:ring-medBlue-500 focus:outline-none">
+                    </div>
+                    <div class="w-full sm:w-36">
+                        <label class="block text-[10px] font-bold text-slate-600 uppercase mb-0.5" title="Equivalente Metabólico (1.0 = reposo, 3.0 moderado, 6.0 intenso)">Valor MET (Intensidad)</label>
+                        <input type="number" id="new-act-met" value="3.5" step="0.1" min="0.8" max="15.0" class="w-full px-2.5 py-1.5 border border-slate-300 rounded-lg text-xs font-bold text-slate-800 focus:ring-2 focus:ring-medBlue-500 focus:outline-none">
+                    </div>
+                    <div class="w-full sm:w-auto self-end mt-1 sm:mt-0">
+                        <button onclick="addNewCustomActivityType()" class="w-full sm:w-auto px-4 py-1.5 bg-medBlue-600 hover:bg-medBlue-700 text-white font-bold rounded-lg text-xs transition flex items-center justify-center gap-1 shadow-sm">
+                            <i class="fa-solid fa-plus"></i> Crear Actividad
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 flex-1 overflow-y-auto custom-scrollbar space-y-3" id="activity-rows-container">
+                <!-- Inyectado dinámicamente -->
+            </div>
+
+            <div id="modal-warning" class="px-4 py-2 bg-rose-50 text-rose-700 text-xs font-semibold hidden text-center border-t border-rose-100">
+                <i class="fa-solid fa-triangle-exclamation mr-1"></i> La suma de horas supera o no completa las 24 h. Ajusta los valores.
+            </div>
+
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex gap-4">
+                    <div class="text-center">
+                        <span class="block text-[10px] text-slate-500 uppercase font-bold">Horas Totales</span>
+                        <span id="modal-total-hours" class="font-bold text-lg text-slate-800">0 / 24</span>
+                    </div>
+                    <div class="w-px bg-slate-300"></div>
+                    <div class="text-center">
+                        <span class="block text-[10px] text-slate-500 uppercase font-bold">Multiplicador (PAL)</span>
+                        <span id="modal-pal-result" class="font-bold text-lg text-medBlue-600">1.00</span>
+                    </div>
+                </div>
+                
+                <div class="flex gap-2">
+                    <button onclick="addActivityRow()" class="px-3.5 py-2 border border-slate-300 text-slate-700 bg-white hover:bg-slate-50 font-semibold rounded-xl text-xs transition">
+                        + Añadir Fila
+                    </button>
+                    <button onclick="applyActivityModal()" class="px-4 py-2 bg-medBlue-600 hover:bg-medBlue-700 text-white font-bold rounded-xl text-xs transition shadow-sm">
+                        Aplicar y Guardar PAL
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Base de datos de alimentos
+        const initialFoodDB = [
+            { cat: "prot", sub: "Pescado Blanco", food: "Merluza / Bacalao", grams: 40, measure: "1/3 filete", note: "Bajo en grasa", meals: ["Comida", "Cena"] },
+            { cat: "prot", sub: "Pescado Azul", food: "Salmón / Atún", grams: 35, measure: "1/4 filete", note: "Rico en Omega-3", meals: ["Comida", "Cena"] },
+            { cat: "prot", sub: "Carnes Blancas", food: "Pechuga Pollo/Pavo", grams: 30, measure: "1 filete pequeño", note: "Sin piel", meals: ["Comida", "Cena"] },
+            { cat: "prot", sub: "Huevos", food: "Huevo Entero", grams: 50, measure: "1 unidad M", note: "Alimento mixto: 1 bloque de proteína + 1 bloque de grasa por ración", meals: ["Desayuno", "Comida", "Cena"], linkedCat: "fat", linkedSub: "Grasa Natural (Huevo)" },
+            { cat: "prot", sub: "Huevos", food: "Claras de Huevo", grams: 65, measure: "2 claras", note: "Proteína limpia", meals: ["Desayuno", "Comida", "Cena"] },
+            { cat: "prot", sub: "Lácteos Desnatados", food: "Queso Fresco 0%", grams: 60, measure: "1 tarrina pequeña", note: "Alto en calcio", meals: ["Desayuno", "Media Mañana", "Merienda"] },
+            { cat: "prot", sub: "Lácteos Desnatados", food: "Yogur Natural", grams: 125, measure: "1 unidad", note: "Sin azúcares", meals: ["Desayuno", "Media Mañana", "Merienda"] },
+            { cat: "prot", sub: "Lácteos Desnatados", food: "Leche Desnatada", grams: 200, measure: "1 vaso", note: "Alimento mixto: 1 bloque de proteína + 1 bloque de hidrato (lactosa) por ración", meals: ["Desayuno", "Media Mañana", "Merienda"], linkedCat: "carb", linkedSub: "Lácteos (Lactosa)" },
+            
+            { cat: "carb", sub: "Verduras / Hortalizas", food: "Espinacas / Acelgas", grams: 300, measure: "1 plato hondo", note: "Alta densidad nutricional", meals: ["Comida", "Cena"] },
+            { cat: "carb", sub: "Verduras / Hortalizas", food: "Brócoli / Coliflor", grams: 200, measure: "1 plato normal", note: "Crucíferas", meals: ["Comida", "Cena"] },
+            { cat: "carb", sub: "Verduras / Hortalizas", food: "Calabacín / Berenjena", grams: 250, measure: "1 unidad mediana", note: "Bajo índice glucémico", meals: ["Comida", "Cena"] },
+            { cat: "carb", sub: "Verduras / Hortalizas", food: "Tomate", grams: 200, measure: "2 unidades", note: "Rico en licopeno", meals: ["Desayuno", "Media Mañana", "Comida", "Merienda", "Cena"] },
+            { cat: "carb", sub: "Frutas", food: "Manzana / Pera", grams: 80, measure: "1/2 unidad", note: "Con piel preferiblemente" },
+            { cat: "carb", sub: "Frutas", food: "Fresas / Arándanos", grams: 150, measure: "1 taza", note: "Antioxidantes" },
+            
+            { cat: "carb", sub: "Legumbres", food: "Lentejas / Garbanzos (cocidos)", grams: 40, measure: "2 cucharadas soperas", note: "Combina con proteína vegetal.", meals: ["Comida", "Cena"] },
+            { cat: "carb", sub: "Cereales Integrales", food: "Avena", grams: 15, measure: "1 cucharada sopera colmada", note: "Fibra soluble", meals: ["Desayuno", "Media Mañana", "Merienda"] },
+            { cat: "carb", sub: "Cereales Integrales", food: "Arroz Integral (cocido)", grams: 30, measure: "2 cucharadas soperas", note: "Energía lenta", meals: ["Comida", "Cena"] },
+            
+            { cat: "fat", sub: "Aceite de Oliva (AOVE)", food: "Aceite de Oliva Virgen Extra", grams: 3, measure: "1 cucharadita postre (no llena)", note: "Pilar dieta mediterránea" },
+            { cat: "fat", sub: "Frutos Secos", food: "Nueces / Almendras", grams: 6, measure: "3 nueces medias", note: "Grasas poliinsaturadas", meals: ["Desayuno", "Media Mañana", "Merienda"] },
+            { cat: "fat", sub: "Frutos Secos", food: "Aguacate", grams: 20, measure: "1 cucharada colmada", note: "Rico en potasio", meals: ["Desayuno", "Comida", "Cena"] },
+            { cat: "fat", sub: "Olivas", food: "Aceitunas (Verdes/Negras)", grams: 25, measure: "5-6 unidades", note: "Grasa monoinsaturada", meals: ["Comida", "Merienda", "Cena"] }
+        ];
+
+        // Lista base de opciones MET para actividades
+        let metOptions = [
+            { id: "dormir", name: "Dormir / Descanso profundo", met: 0.95 },
+            { id: "relax", name: "Descansar / Ver TV / Leer", met: 1.0 },
+            { id: "oficina", name: "Trabajo sentado (Oficina, Ordenador)", met: 1.5 },
+            { id: "pie", name: "Estar de pie / Cocinar / Tareas ligeras", met: 2.0 },
+            { id: "caminar_lento", name: "Caminar despacio / Ir de compras", met: 2.5 },
+            { id: "hogar", name: "Limpieza del hogar (Barrer, Fregar)", met: 3.0 },
+            { id: "caminar_rapido", name: "Caminar a paso ligero", met: 4.0 },
+            { id: "trabajo_fisico", name: "Trabajo físico moderado (Camarero, Taller)", met: 4.5 },
+            { id: "pesas", name: "Entrenamiento de fuerza (Pesas, Gym)", met: 5.0 },
+            { id: "cardio_ligero", name: "Cardio ligero (Bicicleta suave, Natación)", met: 6.0 },
+            { id: "trabajo_duro", name: "Trabajo físico intenso (Construcción)", met: 7.0 },
+            { id: "deporte_intenso", name: "Deporte intenso (Correr, Fútbol, Tenis)", met: 8.0 },
+            { id: "hiit", name: "HIIT / Competición alta intensidad", met: 10.0 }
+        ];
+
+        let foodDB = [...initialFoodDB];
+        let appState = {
+            blocks: 15,
+            blocksManuallySet: false,
+            autoRecommendedBlocks: 15,
+            blockConfig: {
+                prot: 7,
+                carb: 9,
+                fat: 3
+            },
+            meals: [
+                { name: "Desayuno", blocks: 3, pct: 20 },
+                { name: "Media Mañana", blocks: 1, pct: 10 },
+                { name: "Comida", blocks: 5, pct: 35 },
+                { name: "Merienda", blocks: 2, pct: 10 },
+                { name: "Cena", blocks: 4, pct: 25 }
+            ],
+            weeklyMenu: {},
+            weightHistory: [],
+            customPAL: null,
+            bodyFatOverride: null,
+            bodyFatManuallySet: false,
+            customActivities: [
+                { id: "dormir", hours: 8 },
+                { id: "oficina", hours: 8 },
+                { id: "relax", hours: 8 }
+            ]
+        };
+
+        let currentTargetKcal = 1365;
+
+        window.onload = function() {
+            loadSavedData();
+            initBlockConfigInputs();
+            initMealDistributionInputs();
+            renderFoodGuide();
+            renderWeeklyMenu();
+            renderWeightHistory();
+            recalculateAll();
+            initProgressChart();
+            
+            const todayStr = new Date().toISOString().split('T')[0];
+            const dateInput = document.getElementById('chart-date');
+            if(dateInput) dateInput.value = todayStr;
+        };
+
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => {
+                el.classList.remove('border-medGreen-600', 'text-medGreen-700');
+                el.classList.add('border-transparent', 'text-slate-500');
+            });
+            
+            document.getElementById(tabId).classList.add('active');
+            const activeBtn = document.getElementById('btn-' + tabId);
+            if (activeBtn) {
+                activeBtn.classList.remove('border-transparent', 'text-slate-500');
+                activeBtn.classList.add('border-medGreen-600', 'text-medGreen-700');
+            }
+            if(tabId === 'tab-chart') {
+                updateProgressChart();
+            }
+        }
+
+        function saveDataToLocalStorage() {
+            try {
+                localStorage.setItem('medDietPlanerState', JSON.stringify(appState));
+            } catch(e) {
+                console.error("Error guardando en localStorage:", e);
+            }
+        }
+
+        function loadSavedData() {
+            try {
+                const saved = localStorage.getItem('medDietPlanerState');
+                if(saved) {
+                    const parsed = JSON.parse(saved);
+                    appState = Object.assign({}, appState, parsed);
+                }
+            } catch(e) {
+                console.error("Error cargando localStorage:", e);
+            }
+
+            if (appState.foodDB && Array.isArray(appState.foodDB) && appState.foodDB.length > 0) {
+                foodDB = appState.foodDB;
+            } else {
+                appState.foodDB = foodDB;
+            }
+
+            ensureDemoMixedFoodsPresent();
+            ensureSubgroupsInitialized();
+            ensureMealPctInitialized();
+        }
+
+        function ensureDemoMixedFoodsPresent() {
+            const hasLeche = foodDB.some(f => f.food === 'Leche Desnatada');
+            if (!hasLeche) {
+                foodDB.push({
+                    cat: "prot", sub: "Lácteos Desnatados", food: "Leche Desnatada", grams: 200,
+                    measure: "1 vaso", note: "Alimento mixto: 1 bloque de proteína + 1 bloque de hidrato (lactosa) por ración",
+                    meals: ["Desayuno", "Media Mañana", "Merienda"], linkedCat: "carb", linkedSub: "Lácteos (Lactosa)"
+                });
+            }
+
+            const huevo = foodDB.find(f => f.food === 'Huevo Entero');
+            if (huevo && !huevo.linkedCat) {
+                huevo.linkedCat = 'fat';
+                huevo.linkedSub = 'Grasa Natural (Huevo)';
+                if (!huevo.note || !huevo.note.includes('mixto')) {
+                    huevo.note = 'Alimento mixto: 1 bloque de proteína + 1 bloque de grasa por ración';
+                }
+            }
+
+            appState.foodDB = foodDB;
+        }
+
+        function ensureMealPctInitialized() {
+            const totalBlocks = appState.meals.reduce((acc, m) => acc + (m.blocks || 0), 0) || 1;
+            appState.meals.forEach(m => {
+                if (m.pct === undefined || m.pct === null || isNaN(parseFloat(m.pct))) {
+                    m.pct = Math.round(((m.blocks || 0) / totalBlocks) * 1000) / 10;
+                }
+            });
+        }
+
+        const defaultSubgroupPct = {
+            "Pescado Blanco": 20, "Pescado Azul": 20, "Carnes Blancas": 25, "Huevos": 15, "Lácteos Desnatados": 20,
+            "Verduras / Hortalizas": 40, "Frutas": 25, "Legumbres": 15, "Cereales Integrales": 20,
+            "Aceite de Oliva (AOVE)": 55, "Frutos Secos": 30, "Olivas": 15
+        };
+
+        function ensureSubgroupsInitialized() {
+            const catMap = {};
+            foodDB.forEach(i => {
+                if (!(i.sub in catMap)) catMap[i.sub] = i.cat;
+                if (i.linkedCat && i.linkedSub && !(i.linkedSub in catMap)) catMap[i.linkedSub] = i.linkedCat;
+            });
+
+            if (!appState.subgroups || !Array.isArray(appState.subgroups) || appState.subgroups.length === 0) {
+                appState.subgroups = Object.keys(catMap).map(name => ({
+                    name,
+                    cat: catMap[name],
+                    pct: defaultSubgroupPct[name] !== undefined ? defaultSubgroupPct[name] : 0
+                }));
+            } else if (typeof appState.subgroups[0] === 'string') {
+                // Migración desde el formato anterior (lista plana de nombres)
+                appState.subgroups = appState.subgroups.map(name => ({
+                    name,
+                    cat: catMap[name] || 'carb',
+                    pct: defaultSubgroupPct[name] !== undefined ? defaultSubgroupPct[name] : 0
+                }));
+            }
+
+            // Asegura que cualquier subgrupo enlazado (bloque adicional) ya usado por algún
+            // alimento exista también como entrada de subgrupo, aunque venga de un guardado antiguo.
+            foodDB.forEach(i => {
+                if (i.linkedCat && i.linkedSub) {
+                    const exists = appState.subgroups.some(s => s.name === i.linkedSub && s.cat === i.linkedCat);
+                    if (!exists) {
+                        appState.subgroups.push({ name: i.linkedSub, cat: i.linkedCat, pct: 0 });
+                    }
+                }
+            });
+        }
+
+        function resetAllToDefault() {
+            if(confirm("¿Deseas reiniciar todos los datos a sus valores por defecto?")) {
+                localStorage.removeItem('medDietPlanerState');
+                location.reload();
+            }
+        }
+
+        function exportDataJSON() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appState, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", `dieta_mediterranea_bloques_${new Date().toISOString().split('T')[0]}.json`);
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+        }
+
+        function importDataJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const importedState = JSON.parse(e.target.result);
+                    if(importedState && typeof importedState === 'object') {
+                        appState = Object.assign({}, appState, importedState);
+                        saveDataToLocalStorage();
+                        location.reload();
+                    } else {
+                        alert("El archivo subido no contiene un formato de datos válido.");
+                    }
+                } catch(err) {
+                    alert("Error al leer el archivo JSON.");
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function getKcalPerBlock() {
+            const p = (appState.blockConfig && appState.blockConfig.prot) ? appState.blockConfig.prot : 7;
+            const c = (appState.blockConfig && appState.blockConfig.carb) ? appState.blockConfig.carb : 9;
+            const f = (appState.blockConfig && appState.blockConfig.fat) ? appState.blockConfig.fat : 3;
+            return Math.round((p * 4) + (c * 4) + (f * 9));
+        }
+
+        function initBlockConfigInputs() {
+            if(!appState.blockConfig) {
+                appState.blockConfig = { prot: 7, carb: 9, fat: 3 };
+            }
+            const pInput = document.getElementById('block-prot-input');
+            const cInput = document.getElementById('block-carb-input');
+            const fInput = document.getElementById('block-fat-input');
+
+            if(pInput) pInput.value = appState.blockConfig.prot;
+            if(cInput) cInput.value = appState.blockConfig.carb;
+            if(fInput) fInput.value = appState.blockConfig.fat;
+            
+            updateBlockConfigUI();
+        }
+
+        function updateBlockConfig() {
+            const p = parseFloat(document.getElementById('block-prot-input').value) || 7;
+            const c = parseFloat(document.getElementById('block-carb-input').value) || 9;
+            const f = parseFloat(document.getElementById('block-fat-input').value) || 3;
+
+            appState.blockConfig = { prot: p, carb: c, fat: f };
+            updateBlockConfigUI();
+            recalculateAll();
+        }
+
+        function updateBlockConfigUI() {
+            const p = appState.blockConfig.prot;
+            const c = appState.blockConfig.carb;
+            const f = appState.blockConfig.fat;
+            const kcalPerBlock = getKcalPerBlock();
+
+            const badge = document.getElementById('block-kcal-badge');
+            const breakdown = document.getElementById('block-kcal-breakdown');
+            const subtitle = document.getElementById('guide-subtitle');
+
+            if(badge) badge.textContent = `${kcalPerBlock} Kcal / Bloque`;
+            if(breakdown) breakdown.textContent = `(${p}g×4) + (${c}g×4) + (${f}g×9) = ${kcalPerBlock} Kcal`;
+            if(subtitle) subtitle.textContent = `Equivalencias de 1 bloque (${p}g Prot, ${c}g HC, ${f}g Grasa).`;
+        }
+
+        function calculateDeurenbergBodyFat(weight, height, age, sex) {
+            const heightM = height / 100;
+            const bmi = weight / (heightM * heightM);
+            const sexFactor = sex === 'male' ? 1 : 0;
+            return (1.20 * bmi) + (0.23 * age) - (10.8 * sexFactor) - 5.4;
+        }
+
+        function onBodyFatInputChange(value) {
+            const v = parseFloat(value);
+            if (isNaN(v) || v < 0) return;
+            appState.bodyFatOverride = v;
+            appState.bodyFatManuallySet = true;
+            recalculateAll();
+        }
+
+        function resetBodyFatToCalculated() {
+            appState.bodyFatManuallySet = false;
+            appState.bodyFatOverride = null;
+            recalculateAll();
+        }
+
+        function recalculateAll() {
+            const sex = document.getElementById('calc-sex').value;
+            const weight = parseFloat(document.getElementById('calc-weight').value) || 75;
+            const height = parseFloat(document.getElementById('calc-height').value) || 175;
+            const age = parseFloat(document.getElementById('calc-age').value) || 35;
+            
+            const activitySelect = document.getElementById('calc-activity');
+            let pal = parseFloat(activitySelect.value);
+            if (activitySelect.value === 'custom' && appState.customPAL) {
+                pal = appState.customPAL;
+            }
+
+            let bmr = 0;
+            if (sex === 'male') {
+                bmr = (10 * weight) + (6.25 * height) - (5 * age) + 5;
+            } else {
+                bmr = (10 * weight) + (6.25 * height) - (5 * age) - 161;
+            }
+
+            const tdee = bmr * pal;
+            currentTargetKcal = Math.round(tdee);
+
+            // --- Composición Corporal y Proteína (Dieta de la Zona) ---
+            const bodyFatCalculated = calculateDeurenbergBodyFat(weight, height, age, sex);
+            const bodyFatUsed = (appState.bodyFatManuallySet && appState.bodyFatOverride !== null)
+                ? appState.bodyFatOverride
+                : bodyFatCalculated;
+
+            const leanMass = weight * (1 - (bodyFatUsed / 100));
+
+            const proteinFactor = pal;
+            const dailyProteinGrams = leanMass * proteinFactor;
+
+            const bodyFatCalcLabel = document.getElementById('calc-bodyfat-calculated');
+            if (bodyFatCalcLabel) bodyFatCalcLabel.textContent = bodyFatCalculated.toFixed(1);
+
+            const bodyFatInput = document.getElementById('calc-bodyfat-input');
+            if (bodyFatInput && !appState.bodyFatManuallySet) {
+                bodyFatInput.value = bodyFatCalculated.toFixed(1);
+            }
+
+            const leanMassEl = document.getElementById('calc-res-leanmass');
+            if (leanMassEl) leanMassEl.textContent = `${leanMass.toFixed(1)} kg`;
+
+            const proteinFactorEl = document.getElementById('calc-res-protein-factor');
+            if (proteinFactorEl) proteinFactorEl.textContent = `${proteinFactor.toFixed(3).replace(/0+$/, '').replace(/\.$/, '')} g/kg`;
+
+            const proteinEl = document.getElementById('calc-res-protein');
+            if (proteinEl) proteinEl.textContent = `${Math.round(dailyProteinGrams)} g`;
+
+            // --- Bloques recomendados: proteína diaria / gramos de proteína por bloque ---
+            const proteinPerBlock = (appState.blockConfig && appState.blockConfig.prot) ? appState.blockConfig.prot : 7;
+            let recommendedBlocks = Math.round(dailyProteinGrams / proteinPerBlock);
+
+            const blockLimits = sex === 'male' ? { min: 14, max: 21 } : { min: 11, max: 15 };
+            if (recommendedBlocks < blockLimits.min) recommendedBlocks = blockLimits.min;
+            if (recommendedBlocks > blockLimits.max) recommendedBlocks = blockLimits.max;
+
+            appState.autoRecommendedBlocks = recommendedBlocks;
+
+            document.getElementById('auto-recommended-label').textContent = `${recommendedBlocks} bq/día`;
+
+            const activeBlocks = appState.blocksManuallySet ? (appState.blocks || recommendedBlocks) : recommendedBlocks;
+            setManualBlocks(activeBlocks, !appState.blocksManuallySet);
+
+            calculateIMCAndBodyFat(weight, height, age, sex);
+            saveDataToLocalStorage();
+        }
+
+        function adjustBlocks(delta) {
+            let current = parseInt(appState.blocks) || 15;
+            let newBlocks = Math.max(1, current + delta);
+            appState.blocksManuallySet = true;
+            setManualBlocks(newBlocks);
+        }
+
+        function onManualBlocksInputChange(val) {
+            let num = parseInt(val);
+            if(isNaN(num) || num < 1) num = 1;
+            appState.blocksManuallySet = true;
+            setManualBlocks(num);
+        }
+
+        function resetToAutoRecommended() {
+            const rec = appState.autoRecommendedBlocks || 15;
+            appState.blocksManuallySet = false;
+            setManualBlocks(rec);
+        }
+
+        function setManualBlocks(blocks, updateMeals = true) {
+            appState.blocks = blocks;
+            const kcalPerBlock = getKcalPerBlock();
+            const protGrams = blocks * appState.blockConfig.prot;
+            const carbGrams = blocks * appState.blockConfig.carb;
+            const fatGrams = blocks * appState.blockConfig.fat;
+
+            const manualInput = document.getElementById('manual-blocks-input');
+            if(manualInput && parseInt(manualInput.value) !== blocks) {
+                manualInput.value = blocks;
+            }
+
+            document.getElementById('header-daily-blocks').textContent = `${blocks} Bloques`;
+            document.getElementById('header-weekly-blocks').textContent = `${blocks * 7} Bloques`;
+            document.getElementById('calc-res-prot').textContent = protGrams;
+            document.getElementById('calc-res-carb').textContent = carbGrams;
+            document.getElementById('calc-res-fat').textContent = fatGrams;
+
+            if(updateMeals) {
+                distributeBlocksAutomatically(blocks);
+            } else {
+                updateMealDistributionSum();
+            }
+            renderMatrixSummary();
+            renderWeeklyMenu();
+            saveDataToLocalStorage();
+        }
+
+        function updateCaloricContrast() {
+            const kcalPerBlock = getKcalPerBlock();
+            const totalBlocksKcal = appState.blocks * kcalPerBlock;
+
+            const blocksKcalEl = document.getElementById('contrast-blocks-kcal');
+            const blocksFormulaEl = document.getElementById('contrast-blocks-formula');
+
+            if(blocksKcalEl) blocksKcalEl.textContent = `${totalBlocksKcal.toLocaleString('es-ES')} Kcal`;
+            if(blocksFormulaEl) blocksFormulaEl.textContent = `(${appState.blocks} bq × ${kcalPerBlock} kcal)`;
+        }
+
+        function redistributeMealBlocksFromPct(total) {
+            const pcts = appState.meals.map(m => Math.max(0, parseFloat(m.pct) || 0));
+            const sumPct = pcts.reduce((a, b) => a + b, 0) || 1;
+            const raw = pcts.map(p => total * (p / sumPct));
+            const floors = raw.map(Math.floor);
+            let allocated = floors.reduce((a, b) => a + b, 0);
+            let remainder = total - allocated;
+
+            const fracOrder = raw.map((r, i) => ({ i, frac: r - Math.floor(r) })).sort((a, b) => b.frac - a.frac);
+            let k = 0;
+            while (remainder > 0 && k < fracOrder.length) {
+                floors[fracOrder[k].i] += 1;
+                remainder--;
+                k++;
+            }
+            while (remainder < 0 && k < 1000) {
+                let maxIdx = floors.indexOf(Math.max(...floors));
+                if (floors[maxIdx] > 1) { floors[maxIdx]--; remainder++; }
+                k++;
+            }
+
+            // Asegura un mínimo de 1 bloque por comida sin romper la suma total
+            floors.forEach((v, i) => {
+                if (v < 1) {
+                    let maxIdx = floors.indexOf(Math.max(...floors));
+                    if (floors[maxIdx] > 1) { floors[maxIdx]--; floors[i] = 1; }
+                    else { floors[i] = Math.max(1, v); }
+                }
+            });
+
+            appState.meals.forEach((m, idx) => { m.blocks = floors[idx]; });
+        }
+
+        const mealDistributionTable = {
+            11: [3, 1, 3, 1, 3],
+            12: [3, 1, 4, 1, 3],
+            13: [3, 1, 4, 1, 4],
+            14: [3, 1, 4, 2, 4],
+            15: [4, 1, 4, 1, 5],
+            16: [4, 1, 5, 1, 5],
+            17: [4, 1, 5, 2, 5],
+            18: [4, 2, 5, 2, 5],
+            19: [4, 2, 6, 2, 5],
+            20: [4, 2, 6, 2, 6],
+            21: [4, 2, 7, 2, 6]
+        };
+
+        function distributeBlocksAutomatically(total) {
+            const dist = mealDistributionTable[total];
+            if (dist && dist.length === appState.meals.length) {
+                appState.meals.forEach((m, idx) => { m.blocks = dist[idx]; });
+                appState.meals.forEach(m => {
+                    m.pct = total > 0 ? Math.round((m.blocks / total) * 1000) / 10 : 0;
+                });
+            } else {
+                redistributeMealBlocksFromPct(total);
+            }
+            updateMealDistributionInputsUI();
+        }
+
+        function initMealDistributionInputs() {
+            const container = document.getElementById('meal-distribution-inputs');
+            container.innerHTML = '';
+            appState.meals.forEach((meal, idx) => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center justify-between bg-slate-50 p-2 rounded-xl border border-slate-200 gap-2';
+                div.innerHTML = `
+                    <span class="font-semibold text-slate-700 truncate">${meal.name}</span>
+                    <div class="flex items-center gap-1.5 shrink-0">
+                        <input type="number" min="0" max="100" value="${meal.pct !== undefined ? meal.pct : ''}" onchange="updateMealPct(${idx}, this.value)" class="w-14 px-1.5 py-1 border border-slate-300 rounded-lg text-center font-bold text-slate-600 text-[11px]" title="Porcentaje objetivo">
+                        <span class="text-slate-400 text-[11px]">%</span>
+                        <span class="text-slate-300">→</span>
+                        <input type="number" min="1" max="25" value="${meal.blocks}" onchange="updateMealBlock(${idx}, this.value)" class="w-14 px-1.5 py-1 border border-slate-300 rounded-lg text-center font-bold text-slate-800">
+                        <span class="text-slate-500">bq</span>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+            updateMealDistributionSum();
+        }
+
+        function updateMealPct(idx, val) {
+            let v = parseFloat(val);
+            if (isNaN(v) || v < 0) v = 0;
+            appState.meals[idx].pct = v;
+            redistributeMealBlocksFromPct(appState.blocks);
+            updateMealDistributionInputsUI();
+            renderWeeklyMenu();
+            saveDataToLocalStorage();
+        }
+
+        function updateMealBlock(idx, val) {
+            let v = parseInt(val) || 1;
+            if(v < 1) v = 1;
+            appState.meals[idx].blocks = v;
+            appState.blocksManuallySet = true;
+
+            const newTotal = appState.meals.reduce((acc, m) => acc + m.blocks, 0);
+            appState.meals.forEach(m => {
+                m.pct = newTotal > 0 ? Math.round((m.blocks / newTotal) * 1000) / 10 : 0;
+            });
+
+            updateMealDistributionInputsUI();
+            renderWeeklyMenu();
+            saveDataToLocalStorage();
+        }
+
+        function updateMealDistributionSum() {
+            let sum = appState.meals.reduce((acc, m) => acc + m.blocks, 0);
+            const protGrams = sum * appState.blockConfig.prot;
+            const carbGrams = sum * appState.blockConfig.carb;
+            const fatGrams = sum * appState.blockConfig.fat;
+
+            document.getElementById('meal-dist-sum').textContent = sum;
+
+            const pctSum = Math.round(appState.meals.reduce((acc, m) => acc + (parseFloat(m.pct) || 0), 0) * 10) / 10;
+            const pctSumEl = document.getElementById('meal-dist-pct-sum');
+            if (pctSumEl) {
+                pctSumEl.textContent = pctSum;
+                pctSumEl.className = Math.abs(pctSum - 100) < 0.5 ? 'font-bold text-slate-800' : 'font-bold text-red-600';
+            }
+
+            document.getElementById('header-daily-blocks').textContent = `${sum} Bloques`;
+            document.getElementById('header-weekly-blocks').textContent = `${sum * 7} Bloques`;
+            document.getElementById('calc-res-prot').textContent = protGrams;
+            document.getElementById('calc-res-carb').textContent = carbGrams;
+            document.getElementById('calc-res-fat').textContent = fatGrams;
+            
+            const manualInput = document.getElementById('manual-blocks-input');
+            if(manualInput) manualInput.value = sum;
+            appState.blocks = sum;
+            
+            renderMatrixSummary();
+        }
+
+        function updateMealDistributionInputsUI() {
+            initMealDistributionInputs();
+        }
+
+        function resetMealDistribution() {
+            const defaultPct = { "Desayuno": 20, "Media Mañana": 10, "Comida": 35, "Merienda": 10, "Cena": 25 };
+            appState.meals.forEach(m => {
+                if (defaultPct[m.name] !== undefined) m.pct = defaultPct[m.name];
+            });
+            distributeBlocksAutomatically(appState.blocks);
+        }
+
+        function updateSubgroupPct(name, value) {
+            const entry = appState.subgroups.find(s => s.name === name);
+            if (!entry) return;
+            let v = parseFloat(value);
+            if (isNaN(v) || v < 0) v = 0;
+            entry.pct = v;
+            saveDataToLocalStorage();
+            renderMatrixSummary();
+        }
+
+        const MACRO_SLOT_KEYS = ['prot', 'prot2', 'carb', 'carb2', 'fat'];
+
+        function computeSubgroupActualBlocks() {
+            const actual = {};
+            daysOfWeek.forEach(day => {
+                const dayData = appState.weeklyMenu[day];
+                if (!dayData) return;
+                Object.values(dayData).forEach(meal => {
+                    MACRO_SLOT_KEYS.forEach(key => {
+                        const info = meal[key];
+                        if (info && info.sub) {
+                            const blocks = info.blocks !== undefined ? info.blocks : meal.blocks;
+                            actual[info.sub] = (actual[info.sub] || 0) + blocks;
+                        }
+                    });
+                });
+            });
+            return actual;
+        }
+
+        function renderMatrixSummary() {
+            const listEl = {
+                prot: document.getElementById('list-prot'),
+                carb: document.getElementById('list-carb'),
+                fat: document.getElementById('list-fat')
+            };
+            const sumEl = {
+                prot: document.getElementById('pct-sum-prot'),
+                carb: document.getElementById('pct-sum-carb'),
+                fat: document.getElementById('pct-sum-fat')
+            };
+
+            const totalWeeklyBlocks = (appState.blocks || 0) * 7;
+            const actualBlocksMap = computeSubgroupActualBlocks();
+            const hasMenu = Object.keys(appState.weeklyMenu || {}).length > 0;
+            const kcalPerBlock = getKcalPerBlock();
+
+            ['prot', 'carb', 'fat'].forEach(cat => {
+                const items = appState.subgroups.filter(s => s.cat === cat).sort((a, b) => (parseFloat(b.pct) || 0) - (parseFloat(a.pct) || 0));
+                const sum = items.reduce((acc, s) => acc + (parseFloat(s.pct) || 0), 0);
+
+                if (items.length === 0) {
+                    listEl[cat].innerHTML = `<li class="col-span-full text-slate-400 italic text-[11px] py-1">Sin subgrupos definidos.</li>`;
+                } else {
+                    listEl[cat].innerHTML = items.map(s => {
+                        const targetPct = parseFloat(s.pct) || 0;
+                        const targetBlocks = Math.round(totalWeeklyBlocks * targetPct / 100);
+                        const actualBlocks = actualBlocksMap[s.name] || 0;
+                        const actualPct = totalWeeklyBlocks > 0 ? Math.round((actualBlocks / totalWeeklyBlocks) * 100) : 0;
+
+
+
+                        let label, badgeClass;
+                        if (!hasMenu) {
+                            label = 'Sin menú'; badgeClass = 'bg-slate-100 text-slate-400';
+                        } else {
+                            const diffBlocks = actualBlocks - targetBlocks;
+                            if (diffBlocks === 0) { label = 'Igual'; badgeClass = 'bg-emerald-100 text-emerald-700'; }
+                            else if (diffBlocks > 0) { label = 'Superior'; badgeClass = diffBlocks <= 2 ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-700'; }
+                            else { label = 'Inferior'; badgeClass = diffBlocks >= -2 ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-700'; }
+                        }
+
+                        return `
+                            <li class="contents">
+                                <span class="font-semibold text-slate-700 truncate text-[10px] py-1 border-b border-slate-100 pr-1" title="${escapeAttr(s.name)}">${escapeAttr(s.name)}</span>
+                                <span class="flex items-center justify-end gap-0.5 text-[10px] py-1 border-b border-slate-100">
+                                    <input type="number" min="0" max="100" step="1" value="${s.pct}" onchange="updateSubgroupPct('${jsStr(s.name)}', this.value)" class="w-7 text-right bg-white border border-slate-200 rounded px-0.5 font-mono focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                    <span class="text-slate-400">%</span>
+                                </span>
+                                <span class="font-mono text-slate-500 text-[10px] py-1 border-b border-slate-100 text-right">${targetBlocks}bq</span>
+                                <span class="text-slate-300 text-[10px] py-1 border-b border-slate-100 text-center">→</span>
+                                <span class="font-mono font-semibold text-slate-700 text-[10px] py-1 border-b border-slate-100 text-right">${actualBlocks}bq</span>
+                                <span class="font-mono text-slate-400 text-[10px] py-1 border-b border-slate-100 text-right">${actualPct}%</span>
+                                <span class="text-[9px] py-1 border-b border-slate-100 text-right">
+                                    <span class="px-1.5 py-0.5 rounded-full font-bold ${badgeClass}">${label}</span>
+                                </span>
+                            </li>
+                        `;
+                    }).join('');
+                }
+
+                if (sumEl[cat]) {
+                    sumEl[cat].textContent = `${sum}%`;
+                    const baseClass = { prot: 'text-emerald-700 font-mono', carb: 'text-amber-700 font-mono', fat: 'text-sky-700 font-mono' };
+                    sumEl[cat].className = sum === 100 ? baseClass[cat] : 'text-red-600 font-mono font-bold';
+                }
+
+                const totalTargetBlocks = items.reduce((acc, s) => acc + Math.round(totalWeeklyBlocks * (parseFloat(s.pct) || 0) / 100), 0);
+                const totalActualBlocks = items.reduce((acc, s) => acc + (actualBlocksMap[s.name] || 0), 0);
+                const totalEl = document.getElementById(`total-blocks-${cat}`);
+                if (totalEl) {
+                    totalEl.textContent = `Total: ${totalTargetBlocks} bq obj · ${totalActualBlocks} bq real`;
+                }
+            });
+
+            renderKcalGlobalSummary(kcalPerBlock, hasMenu);
+            renderWeeklyRecipeTable();
+            updateCaloricContrast();
+        }
+
+        function renderKcalGlobalSummary(kcalPerBlock, hasMenu) {
+            const el = document.getElementById('kcal-global-summary');
+            if (!el) return;
+
+            const targetBlocksWeek = (appState.blocks || 0) * 7;
+            let actualBlocksWeek = 0;
+            daysOfWeek.forEach(day => {
+                const dayData = appState.weeklyMenu[day];
+                if (!dayData) return;
+                Object.values(dayData).forEach(meal => { actualBlocksWeek += (meal.blocks || 0); });
+            });
+
+            const kcalTarget = Math.round(targetBlocksWeek * kcalPerBlock);
+            const kcalActual = Math.round(actualBlocksWeek * kcalPerBlock);
+            const kcalDiff = kcalActual - kcalTarget;
+
+            let diffText, diffClass;
+            if (!hasMenu) { diffText = 'Sin menú generado'; diffClass = 'text-slate-400'; }
+            else if (kcalDiff === 0) { diffText = '0 kcal (coincide)'; diffClass = 'text-emerald-400'; }
+            else { diffText = `${kcalDiff > 0 ? '+' : ''}${kcalDiff} kcal`; diffClass = kcalDiff > 0 ? 'text-amber-400' : 'text-sky-400'; }
+
+            el.innerHTML = `
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-fire text-amber-400"></i>
+                    <span class="font-bold uppercase tracking-wide text-[10px] text-slate-300">Resumen Semanal Kcal</span>
+                </div>
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+                    <span>Objetivo: <strong class="font-mono">${kcalTarget.toLocaleString('es-ES')} kcal</strong> <span class="text-slate-400">(${targetBlocksWeek}bq)</span></span>
+                    <span>Real: <strong class="font-mono">${kcalActual.toLocaleString('es-ES')} kcal</strong> <span class="text-slate-400">(${actualBlocksWeek}bq)</span></span>
+                    <span>Diferencia: <strong class="font-mono ${diffClass}">${diffText}</strong></span>
+                </div>
+            `;
+        }
+
+        function openActivityModal() {
+            const modal = document.getElementById('modal-activity');
+            modal.classList.remove('hidden');
+            setTimeout(() => modal.classList.remove('opacity-0'), 10);
+            renderActivityModalRows();
+        }
+
+        function closeActivityModal() {
+            const modal = document.getElementById('modal-activity');
+            modal.classList.add('opacity-0');
+            setTimeout(() => modal.classList.add('hidden'), 300);
+        }
+
+        function renderActivityModalRows() {
+            const container = document.getElementById('activity-rows-container');
+            container.innerHTML = '';
+            
+            appState.customActivities.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-200';
+                
+                let optionsHtml = '';
+                metOptions.forEach(opt => {
+                    const selected = opt.id === item.id ? 'selected' : '';
+                    optionsHtml += `<option value="${opt.id}" ${selected}>${opt.name} (MET: ${opt.met})</option>`;
+                });
+
+                div.innerHTML = `
+                    <div class="flex-1">
+                        <select onchange="updateActivityRowId(${index}, this.value)" class="w-full px-3 py-1.5 border border-slate-300 rounded-lg text-xs bg-white focus:ring-2 focus:ring-medBlue-500 focus:outline-none">
+                            ${optionsHtml}
+                        </select>
+                    </div>
+                    <div class="w-24">
+                        <div class="relative">
+                            <input type="number" min="0" max="24" step="0.5" value="${item.hours}" onchange="updateActivityRowHours(${index}, this.value)" class="w-full pl-2 pr-7 py-1.5 border border-slate-300 rounded-lg text-xs font-bold text-center">
+                            <span class="absolute right-2 top-1.5 text-slate-400 text-xs">h</span>
+                        </div>
+                    </div>
+                    <button onclick="removeActivityRow(${index})" class="p-2 text-rose-500 hover:text-rose-700 hover:bg-rose-50 rounded-lg transition" title="Eliminar fila">
+                        <i class="fa-solid fa-trash-can text-xs"></i>
+                    </button>
+                `;
+                container.appendChild(div);
+            });
+            calculateModalTotals();
+        }
+
+        function addActivityRow() {
+            appState.customActivities.push({ id: metOptions[0].id, hours: 1 });
+            renderActivityModalRows();
+        }
+
+        function removeActivityRow(index) {
+            if(appState.customActivities.length <= 1) return;
+            appState.customActivities.splice(index, 1);
+            renderActivityModalRows();
+        }
+
+        function updateActivityRowId(index, id) {
+            appState.customActivities[index].id = id;
+            calculateModalTotals();
+        }
+
+        function updateActivityRowHours(index, val) {
+            appState.customActivities[index].hours = parseFloat(val) || 0;
+            calculateModalTotals();
+        }
+
+        function addNewCustomActivityType() {
+            const nameInput = document.getElementById('new-act-name');
+            const metInput = document.getElementById('new-act-met');
+            
+            const name = nameInput.value.trim();
+            const met = parseFloat(metInput.value);
+
+            if(!name) {
+                alert("Por favor, introduce un nombre para la nueva actividad.");
+                return;
+            }
+            if(isNaN(met) || met <= 0) {
+                alert("Introduce un valor MET válido (mayor que 0).");
+                return;
+            }
+
+            const customId = 'custom_' + Date.now();
+            
+            metOptions.push({
+                id: customId,
+                name: `${name} (Personalizada)`,
+                met: met
+            });
+
+            appState.customActivities.push({ id: customId, hours: 1 });
+
+            nameInput.value = '';
+            metInput.value = '3.5';
+
+            renderActivityModalRows();
+        }
+
+        function calculateModalTotals() {
+            let totalHours = 0;
+            let weightedMetSum = 0;
+
+            appState.customActivities.forEach(item => {
+                const opt = metOptions.find(o => o.id === item.id);
+                const metVal = opt ? opt.met : 1.0;
+                totalHours += item.hours;
+                weightedMetSum += (metVal * item.hours);
+            });
+
+            let calculatedPAL = totalHours > 0 ? (weightedMetSum / totalHours) : 1.2;
+            calculatedPAL = parseFloat(calculatedPAL.toFixed(2));
+
+            document.getElementById('modal-total-hours').textContent = `${totalHours.toFixed(1)} / 24`;
+            document.getElementById('modal-pal-result').textContent = calculatedPAL;
+
+            const warningEl = document.getElementById('modal-warning');
+            if(Math.abs(totalHours - 24) > 0.05) {
+                warningEl.classList.remove('hidden');
+                warningEl.textContent = `Atención: Las horas suman ${totalHours.toFixed(1)}h (deben sumar exactamente 24 horas).`;
+            } else {
+                warningEl.classList.add('hidden');
+            }
+
+            return { totalHours, calculatedPAL };
+        }
+
+        function applyActivityModal() {
+            const { totalHours, calculatedPAL } = calculateModalTotals();
+            if(Math.abs(totalHours - 24) > 0.05) {
+                alert("Las horas totales deben sumar exactamente 24 horas para aplicar el cálculo exhaustivo.");
+                return;
+            }
+
+            appState.customPAL = calculatedPAL;
+            
+            const actSelect = document.getElementById('calc-activity');
+            let customOpt = document.getElementById('opt-custom-activity');
+            customOpt.value = calculatedPAL;
+            customOpt.textContent = `Exhaustivo Personalizado (${calculatedPAL})`;
+            customOpt.classList.remove('hidden');
+            actSelect.value = calculatedPAL;
+
+            closeActivityModal();
+            recalculateAll();
+        }
+
+        let guideSortState = { field: 'cat', direction: 'asc' };
+
+        const catSortLabel = { prot: 'Proteína', carb: 'Carbohidrato', fat: 'Grasa' };
+
+        function sortFoodGuide(field) {
+            if (guideSortState.field === field) {
+                guideSortState.direction = guideSortState.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                guideSortState.field = field;
+                guideSortState.direction = 'asc';
+            }
+            renderFoodGuide();
+        }
+
+        function jsStr(str) {
+            return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+        }
+
+        function toggleSubgroupCreator() {
+            const panel = document.getElementById('subgroup-creator-panel');
+            const willOpen = panel.classList.contains('hidden');
+            panel.classList.toggle('hidden');
+            if (willOpen) {
+                renderSubgroupManagerList();
+                document.getElementById('new-subgroup-input').focus();
+            }
+        }
+
+        function renderSubgroupManagerList() {
+            const list = document.getElementById('subgroup-manager-list');
+            if (!list) return;
+            if (!appState.subgroups || appState.subgroups.length === 0) {
+                list.innerHTML = '<p class="text-[11px] text-slate-400 italic py-1">No hay subgrupos todavía.</p>';
+                return;
+            }
+
+            const groups = { prot: [], carb: [], fat: [] };
+            appState.subgroups.forEach(s => { if (groups[s.cat]) groups[s.cat].push(s); });
+            const catIcon = { prot: 'fa-drumstick-bite text-emerald-600', carb: 'fa-wheat-awn text-amber-600', fat: 'fa-bottle-droplet text-sky-600' };
+
+            list.innerHTML = ['prot', 'carb', 'fat'].map(cat => {
+                if (groups[cat].length === 0) return '';
+                return `
+                    <div class="mb-2">
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wide mb-1"><i class="fa-solid ${catIcon[cat]} mr-1"></i>${catSortLabel[cat]}</p>
+                        ${groups[cat].map(s => `
+                            <div class="flex items-center gap-1.5 mb-1">
+                                <input type="text" value="${escapeAttr(s.name)}" onchange="renameSubgroup('${jsStr(s.name)}', this.value)" class="flex-1 min-w-0 px-2 py-1 border border-slate-200 rounded-lg text-xs font-normal text-slate-700 focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                <button onclick="deleteSubgroup('${jsStr(s.name)}')" title="Eliminar subgrupo" class="text-slate-300 hover:text-red-500 transition px-1 shrink-0">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function createSubgroup() {
+            const input = document.getElementById('new-subgroup-input');
+            const catSelect = document.getElementById('new-subgroup-cat');
+            const name = input.value.trim();
+            const cat = catSelect.value;
+            if (!name) {
+                input.focus();
+                return;
+            }
+            if (!appState.subgroups) appState.subgroups = [];
+            if (appState.subgroups.some(s => s.name.toLowerCase() === name.toLowerCase())) {
+                alert(`Ya existe un subgrupo llamado "${name}".`);
+                return;
+            }
+            appState.subgroups.push({ name, cat, pct: 0 });
+            saveDataToLocalStorage();
+            input.value = '';
+            renderSubgroupManagerList();
+            renderMatrixSummary();
+            renderFoodGuide();
+            input.focus();
+        }
+
+        function renameSubgroup(oldName, newName) {
+            newName = newName.trim();
+            if (!newName || newName === oldName) {
+                renderSubgroupManagerList();
+                return;
+            }
+            const entry = appState.subgroups.find(s => s.name === oldName);
+            if (!entry) return;
+            if (appState.subgroups.some(s => s.name.toLowerCase() === newName.toLowerCase() && s.name !== oldName)) {
+                alert(`Ya existe un subgrupo llamado "${newName}".`);
+                renderSubgroupManagerList();
+                return;
+            }
+            entry.name = newName;
+
+            foodDB.forEach(item => {
+                if (item.sub === oldName) item.sub = newName;
+            });
+            appState.foodDB = foodDB;
+
+            saveDataToLocalStorage();
+            renderSubgroupManagerList();
+            renderFoodGuide();
+            renderMatrixSummary();
+        }
+
+        function deleteSubgroup(name) {
+            const idx = appState.subgroups.findIndex(s => s.name === name);
+            if (idx === -1) return;
+            const cat = appState.subgroups[idx].cat;
+            const fallbackName = `Sin subgrupo (${catSortLabel[cat]})`;
+
+            const usageCount = foodDB.filter(item => item.sub === name).length;
+            if (usageCount > 0) {
+                if (!confirm(`El subgrupo "${name}" se usa en ${usageCount} alimento(s). Si lo eliminas, esos alimentos pasarán a "${fallbackName}". ¿Continuar?`)) return;
+                foodDB.forEach(item => {
+                    if (item.sub === name) item.sub = fallbackName;
+                });
+                if (!appState.subgroups.some(s => s.name === fallbackName)) {
+                    appState.subgroups.push({ name: fallbackName, cat, pct: 0 });
+                }
+                appState.foodDB = foodDB;
+            }
+
+            appState.subgroups = appState.subgroups.filter(s => s.name !== name);
+
+            saveDataToLocalStorage();
+            renderSubgroupManagerList();
+            renderFoodGuide();
+            renderMatrixSummary();
+        }
+
+        document.addEventListener('click', function(e) {
+            const panel = document.getElementById('subgroup-creator-panel');
+            if (!panel || panel.classList.contains('hidden')) return;
+            if (!panel.contains(e.target)) {
+                panel.classList.add('hidden');
+            }
+        });
+
+        function mealAbbr(name) {
+            const map = { "Desayuno": "Des", "Media Mañana": "MM", "Comida": "Com", "Merienda": "Mer", "Cena": "Cen" };
+            return map[name] || name.slice(0, 3);
+        }
+
+        function subgroupHasFoodForMeal(cat, subName, mealName) {
+            return foodDB.some(f => f.cat === cat && f.sub === subName && isFoodAllowedForMeal(f, mealName));
+        }
+
+        function isFoodAllowedForMeal(food, mealName) {
+            if (!mealName) return true;
+            if (!food.meals || !Array.isArray(food.meals) || food.meals.length === 0) return true;
+            return food.meals.includes(mealName);
+        }
+
+        function fixWeeklyMenuMealCompliance() {
+            let changed = false;
+            daysOfWeek.forEach(day => {
+                const dayData = appState.weeklyMenu[day];
+                if (!dayData) return;
+                Object.keys(dayData).forEach(mealName => {
+                    const meal = dayData[mealName];
+                    MACRO_SLOT_KEYS.forEach(key => {
+                        const info = meal[key];
+                        if (!info) return;
+                        const cat = key.replace('2', '');
+                        const entryBlocks = info.blocks !== undefined ? info.blocks : meal.blocks;
+                        const foodDef = foodDB.find(f => f.cat === cat && f.food === info.food);
+                        const allowed = foodDef ? isFoodAllowedForMeal(foodDef, mealName) : true;
+                        if (!allowed) {
+                            let candidates = foodDB.filter(f => f.cat === cat && f.sub === info.sub && isFoodAllowedForMeal(f, mealName));
+                            if (candidates.length === 0) candidates = foodDB.filter(f => f.cat === cat && isFoodAllowedForMeal(f, mealName));
+                            if (candidates.length === 0) candidates = foodDB.filter(f => f.cat === cat);
+                            if (candidates.length > 0) {
+                                const newFood = candidates[Math.floor(Math.random() * candidates.length)];
+                                meal[key] = { food: newFood.food, sub: newFood.sub, blocks: entryBlocks, grams: newFood.grams * entryBlocks };
+                                changed = true;
+                            }
+                        }
+                    });
+                });
+            });
+            return changed;
+        }
+
+        function toggleFoodMeal(idx, mealName) {
+            if (!foodDB[idx]) return;
+            const allMealNames = appState.meals.map(m => m.name);
+            let meals = foodDB[idx].meals;
+            if (!meals || !Array.isArray(meals) || meals.length === 0) {
+                meals = [...allMealNames];
+            }
+            const pos = meals.indexOf(mealName);
+            if (pos !== -1) {
+                if (meals.length === 1) {
+                    alert('El alimento debe estar permitido en al menos una toma.');
+                    return;
+                }
+                meals.splice(pos, 1);
+            } else {
+                meals.push(mealName);
+            }
+            foodDB[idx].meals = meals;
+            appState.foodDB = foodDB;
+
+            const changed = fixWeeklyMenuMealCompliance();
+
+            saveDataToLocalStorage();
+            renderFoodGuide();
+            if (changed) {
+                renderWeeklyMenu();
+                renderMatrixSummary();
+            }
+        }
+
+        function escapeAttr(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        function catBadgeClasses(cat) {
+            if (cat === 'prot') return 'bg-emerald-100 text-emerald-800';
+            if (cat === 'carb') return 'bg-amber-100 text-amber-800';
+            if (cat === 'fat') return 'bg-sky-100 text-sky-800';
+            return 'bg-slate-100 text-slate-700';
+        }
+
+        function updateFoodGuideField(idx, field, value) {
+            if (!foodDB[idx]) return;
+            if (field === 'grams') {
+                const v = parseFloat(value);
+                foodDB[idx].grams = isNaN(v) ? 0 : v;
+            } else {
+                foodDB[idx][field] = value;
+            }
+            if (field === 'cat') {
+                const validSubs = appState.subgroups.filter(s => s.cat === value).map(s => s.name);
+                if (!validSubs.includes(foodDB[idx].sub)) {
+                    foodDB[idx].sub = validSubs.length > 0 ? validSubs[0] : '';
+                }
+                if (foodDB[idx].linkedCat === value) {
+                    foodDB[idx].linkedCat = '';
+                    foodDB[idx].linkedSub = '';
+                }
+            }
+            if (field === 'linkedCat') {
+                if (!value) {
+                    foodDB[idx].linkedSub = '';
+                } else {
+                    const validLinkedSubs = appState.subgroups.filter(s => s.cat === value).map(s => s.name);
+                    if (!validLinkedSubs.includes(foodDB[idx].linkedSub)) {
+                        foodDB[idx].linkedSub = validLinkedSubs.length > 0 ? validLinkedSubs[0] : '';
+                    }
+                }
+            }
+            appState.foodDB = foodDB;
+            saveDataToLocalStorage();
+            renderFoodGuide();
+        }
+
+        function addFoodItem() {
+            const defaultCat = 'prot';
+            const catSubs = appState.subgroups.filter(s => s.cat === defaultCat);
+            const defaultSub = catSubs.length > 0 ? catSubs[0].name : 'Otros';
+            const newItem = { cat: defaultCat, sub: defaultSub, food: 'Nuevo Alimento', grams: 0, measure: '', note: '', linkedCat: '', linkedSub: '' };
+            foodDB.push(newItem);
+            appState.foodDB = foodDB;
+
+            document.getElementById('guide-search').value = '';
+            document.getElementById('guide-filter-cat').value = 'all';
+            saveDataToLocalStorage();
+            renderFoodGuide();
+
+            const idx = foodDB.length - 1;
+            const row = document.querySelector(`#food-guide-table-body tr[data-idx="${idx}"]`);
+            if (row) {
+                row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                const foodInput = row.querySelector('td:nth-child(3) input');
+                if (foodInput) {
+                    foodInput.focus();
+                    foodInput.select();
+                }
+            }
+        }
+
+        function deleteFoodItem(idx) {
+            if (!foodDB[idx]) return;
+            if (!confirm(`¿Eliminar "${foodDB[idx].food}" de la guía?`)) return;
+            foodDB.splice(idx, 1);
+            appState.foodDB = foodDB;
+            saveDataToLocalStorage();
+            renderFoodGuide();
+        }
+
+        function renderFoodGuide() {
+            const tbody = document.getElementById('food-guide-table-body');
+            const search = document.getElementById('guide-search').value.toLowerCase();
+            const filterCat = document.getElementById('guide-filter-cat').value;
+
+            tbody.innerHTML = '';
+            
+            const filtered = foodDB.filter(item => {
+                const matchCat = filterCat === 'all' || item.cat === filterCat;
+                const matchSearch = item.food.toLowerCase().includes(search) || item.sub.toLowerCase().includes(search) || item.note.toLowerCase().includes(search);
+                return matchCat && matchSearch;
+            });
+
+            if (guideSortState.field) {
+                const f = guideSortState.field;
+                const dir = guideSortState.direction === 'asc' ? 1 : -1;
+                filtered.sort((a, b) => {
+                    let valA, valB;
+                    if (f === 'grams') {
+                        valA = parseFloat(a.grams) || 0;
+                        valB = parseFloat(b.grams) || 0;
+                        return (valA - valB) * dir;
+                    } else if (f === 'cat') {
+                        const catOrder = { prot: 0, carb: 1, fat: 2 };
+                        valA = catOrder[a.cat] !== undefined ? catOrder[a.cat] : 99;
+                        valB = catOrder[b.cat] !== undefined ? catOrder[b.cat] : 99;
+                        return (valA - valB) * dir;
+                    } else {
+                        valA = (a[f] || '').toString().toLowerCase();
+                        valB = (b[f] || '').toString().toLowerCase();
+                    }
+                    return valA.localeCompare(valB) * dir;
+                });
+            }
+
+            ['cat', 'sub', 'food', 'grams', 'measure', 'note'].forEach(f => {
+                const icon = document.getElementById('sort-icon-' + f);
+                if (!icon) return;
+                if (guideSortState.field === f) {
+                    icon.className = 'ml-1 text-medGreen-700';
+                    icon.innerHTML = guideSortState.direction === 'asc' ? '<i class="fa-solid fa-sort-up"></i>' : '<i class="fa-solid fa-sort-down"></i>';
+                } else {
+                    icon.className = 'ml-1 text-slate-300';
+                    icon.innerHTML = '<i class="fa-solid fa-sort"></i>';
+                }
+            });
+
+            if(filtered.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="9" class="p-4 text-center text-slate-400">No se encontraron alimentos.</td></tr>`;
+                return;
+            }
+
+            const textInputBase = "w-full bg-transparent border-0 border-b border-transparent hover:border-slate-300 focus:border-medGreen-500 focus:outline-none py-0.5 px-0";
+
+            filtered.forEach(item => {
+                const idx = foodDB.indexOf(item);
+                const tr = document.createElement('tr');
+                tr.className = 'hover:bg-slate-50 transition border-b border-slate-100';
+                tr.setAttribute('data-idx', idx);
+
+                tr.innerHTML = `
+                    <td class="p-3">
+                        <select onchange="updateFoodGuideField(${idx}, 'cat', this.value)" class="px-2 py-0.5 rounded-full font-bold text-[10px] border-0 focus:outline-none focus:ring-1 focus:ring-medGreen-400 cursor-pointer ${catBadgeClasses(item.cat)}">
+                            <option value="prot" ${item.cat === 'prot' ? 'selected' : ''}>Proteína</option>
+                            <option value="carb" ${item.cat === 'carb' ? 'selected' : ''}>Carbohidrato</option>
+                            <option value="fat" ${item.cat === 'fat' ? 'selected' : ''}>Grasa</option>
+                        </select>
+                    </td>
+                    <td class="p-3 font-medium text-slate-700">
+                        <select onchange="updateFoodGuideField(${idx}, 'sub', this.value)" class="${textInputBase} font-medium text-slate-700 cursor-pointer">
+                            ${(() => {
+                                const catOptions = appState.subgroups.filter(s => s.cat === item.cat).map(s => s.name);
+                                const options = catOptions.includes(item.sub) ? catOptions : [item.sub, ...catOptions];
+                                return options.map(s => `<option value="${escapeAttr(s)}" ${s === item.sub ? 'selected' : ''}>${escapeAttr(s)}</option>`).join('');
+                            })()}
+                        </select>
+                    </td>
+                    <td class="p-3 font-bold text-slate-900">
+                        <input type="text" value="${escapeAttr(item.food)}" onchange="updateFoodGuideField(${idx}, 'food', this.value)" class="${textInputBase} font-bold text-slate-900">
+                    </td>
+                    <td class="p-3 font-mono font-bold text-medGreen-700">
+                        <div class="flex items-center gap-1">
+                            <input type="number" min="0" step="1" value="${item.grams}" onchange="updateFoodGuideField(${idx}, 'grams', this.value)" class="${textInputBase} font-mono font-bold text-medGreen-700 w-14">
+                            <span>g</span>
+                        </div>
+                    </td>
+                    <td class="p-3 text-slate-600">
+                        <input type="text" value="${escapeAttr(item.measure)}" onchange="updateFoodGuideField(${idx}, 'measure', this.value)" class="${textInputBase} text-slate-600">
+                    </td>
+                    <td class="p-3 text-slate-500 italic text-[11px]">
+                        <input type="text" value="${escapeAttr(item.note)}" onchange="updateFoodGuideField(${idx}, 'note', this.value)" class="${textInputBase} text-slate-500 italic text-[11px]">
+                    </td>
+                    <td class="p-3">
+                        <div class="flex flex-wrap gap-1 max-w-[160px]">
+                            ${appState.meals.map(m => {
+                                const allowed = isFoodAllowedForMeal(item, m.name);
+                                return `<button type="button" onclick="toggleFoodMeal(${idx}, '${jsStr(m.name)}')" title="${escapeAttr(m.name)}${allowed ? '' : ' (no permitido)'}" class="px-1.5 py-0.5 rounded font-bold text-[9px] border transition ${allowed ? 'bg-medGreen-100 text-medGreen-800 border-medGreen-300' : 'bg-slate-50 text-slate-300 border-slate-200 line-through'}">${mealAbbr(m.name)}</button>`;
+                            }).join('')}
+                        </div>
+                    </td>
+                    <td class="p-3">
+                        <div class="flex items-center gap-1">
+                            <select onchange="updateFoodGuideField(${idx}, 'linkedCat', this.value)" class="px-1 py-1 border border-slate-200 rounded text-[10px] bg-white focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                <option value="">Ninguno</option>
+                                <option value="prot" ${item.linkedCat === 'prot' ? 'selected' : ''} ${item.cat === 'prot' ? 'disabled' : ''}>+ Prot</option>
+                                <option value="carb" ${item.linkedCat === 'carb' ? 'selected' : ''} ${item.cat === 'carb' ? 'disabled' : ''}>+ Carb</option>
+                                <option value="fat" ${item.linkedCat === 'fat' ? 'selected' : ''} ${item.cat === 'fat' ? 'disabled' : ''}>+ Grasa</option>
+                            </select>
+                            ${item.linkedCat ? `
+                                <select onchange="updateFoodGuideField(${idx}, 'linkedSub', this.value)" class="px-1 py-1 border border-slate-200 rounded text-[10px] bg-white max-w-[110px] focus:ring-1 focus:ring-medGreen-500 focus:outline-none">
+                                    ${(() => {
+                                        const opts = appState.subgroups.filter(s => s.cat === item.linkedCat).map(s => s.name);
+                                        const list = opts.includes(item.linkedSub) ? opts : [item.linkedSub, ...opts].filter(Boolean);
+                                        return list.map(s => `<option value="${escapeAttr(s)}" ${s === item.linkedSub ? 'selected' : ''}>${escapeAttr(s)}</option>`).join('');
+                                    })()}
+                                </select>
+                            ` : ''}
+                        </div>
+                    </td>
+                    <td class="p-3 text-center">
+                        <button onclick="deleteFoodItem(${idx})" title="Eliminar alimento" class="text-slate-300 hover:text-red-500 transition">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        const daysOfWeek = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+
+        function getFoodByCategory(cat, mealName) {
+            let subs = appState.subgroups.filter(s => s.cat === cat && s.pct > 0);
+            if (mealName) {
+                const eligibleSubs = subs.filter(s => subgroupHasFoodForMeal(cat, s.name, mealName));
+                if (eligibleSubs.length > 0) subs = eligibleSubs;
+            }
+
+            let chosenSub = null;
+            if (subs.length > 0) {
+                const totalPct = subs.reduce((acc, s) => acc + s.pct, 0);
+                let r = Math.random() * totalPct;
+                for (const s of subs) {
+                    r -= s.pct;
+                    if (r <= 0) { chosenSub = s.name; break; }
+                }
+                if (!chosenSub) chosenSub = subs[subs.length - 1].name;
+            }
+
+            let list = chosenSub ? foodDB.filter(f => f.cat === cat && f.sub === chosenSub && isFoodAllowedForMeal(f, mealName)) : [];
+            if (list.length === 0) list = foodDB.filter(f => f.cat === cat && isFoodAllowedForMeal(f, mealName));
+            if (list.length === 0 && chosenSub) list = foodDB.filter(f => f.cat === cat && f.sub === chosenSub);
+            if (list.length === 0) list = foodDB.filter(f => f.cat === cat);
+            return list[Math.floor(Math.random() * list.length)];
+        }
+
+        function isSmallMeal(mealName) {
+            return ['Desayuno', 'Media Mañana', 'Merienda'].includes(mealName);
+        }
+
+        function splitBlocksForSources(total) {
+            if (total >= 2) return [Math.ceil(total / 2), Math.floor(total / 2)];
+            return [total];
+        }
+
+        function generateDayMenu(day) {
+            let dayObj = {};
+            appState.meals.forEach(meal => {
+                const mealResult = { blocks: meal.blocks };
+
+                let fFood = getFoodByCategory('fat', meal.name);
+                mealResult.fat = { food: fFood.food, sub: fFood.sub, blocks: meal.blocks, grams: fFood.grams * meal.blocks };
+
+                const carbParts = isSmallMeal(meal.name) ? splitBlocksForSources(meal.blocks) : [meal.blocks];
+                let firstCFood = null;
+                carbParts.forEach((blocks, idx) => {
+                    const food = idx === 0 ? getFoodByCategory('carb', meal.name) : getFoodByCategory('carb', meal.name);
+                    if (idx === 0) firstCFood = food;
+                    const entry = { food: food.food, sub: food.sub, blocks, grams: food.grams * blocks };
+                    if (idx === 0) mealResult.carb = entry; else mealResult.carb2 = entry;
+                });
+
+                const protParts = isSmallMeal(meal.name) ? splitBlocksForSources(meal.blocks) : [meal.blocks];
+                let firstPFood = null;
+                protParts.forEach((blocks, idx) => {
+                    const food = idx === 0 ? getFoodByCategory('prot', meal.name) : getFoodByCategory('prot', meal.name);
+                    if (idx === 0) firstPFood = food;
+                    const entry = { food: food.food, sub: food.sub, blocks, grams: food.grams * blocks };
+                    if (idx === 0) mealResult.prot = entry; else mealResult.prot2 = entry;
+                });
+
+                applyMixedFoodLink(mealResult, firstPFood, mealResult.prot.blocks);
+                applyMixedFoodLink(mealResult, firstCFood, mealResult.carb.blocks);
+                applyMixedFoodLink(mealResult, fFood, meal.blocks);
+
+                dayObj[meal.name] = mealResult;
+            });
+            appState.weeklyMenu[day] = dayObj;
+        }
+
+        function computeIntegerTargets(subs, totalWeeklyBlocks) {
+            const pcts = subs.map(s => Math.max(0, parseFloat(s.pct) || 0));
+            const sumPct = pcts.reduce((a, b) => a + b, 0) || 1;
+            const raw = pcts.map(p => totalWeeklyBlocks * (p / sumPct));
+            const floors = raw.map(Math.floor);
+            let allocated = floors.reduce((a, b) => a + b, 0);
+            let remainder = totalWeeklyBlocks - allocated;
+
+            const fracOrder = raw.map((r, i) => ({ i, frac: r - Math.floor(r) })).sort((a, b) => b.frac - a.frac);
+            let k = 0;
+            while (remainder > 0 && k < fracOrder.length) {
+                floors[fracOrder[k].i] += 1;
+                remainder--;
+                k++;
+            }
+
+            const targets = {};
+            subs.forEach((s, i) => { targets[s.name] = floors[i]; });
+            return targets;
+        }
+
+        function allocateSubgroupsForCategory(cat, mealSlots) {
+            const subs = appState.subgroups.filter(s => s.cat === cat);
+            if (subs.length === 0) return null;
+
+            const totalWeeklyBlocks = (appState.blocks || 0) * 7;
+            const targets = computeIntegerTargets(subs, totalWeeklyBlocks);
+
+            // Elegibilidad real (por alimentos permitidos en cada toma) para cada hueco de la semana
+            const eligibilityBySlot = mealSlots.map(slot => {
+                const eligible = subs.filter(s => subgroupHasFoodForMeal(cat, s.name, slot.mealName));
+                return (eligible.length > 0 ? eligible : subs).map(s => s.name);
+            });
+
+            // Paso 1: asignación voraz según el objetivo restante (rápida, ya razonablemente ajustada)
+            const budgets = {};
+            subs.forEach(s => { budgets[s.name] = targets[s.name]; });
+            const assignment = mealSlots.map((slot, i) => {
+                const pool = eligibilityBySlot[i];
+                let chosen = pool[0];
+                let maxRelBudget = -Infinity;
+                pool.forEach(name => {
+                    const relBudget = budgets[name] / Math.max(1, targets[name]);
+                    if (relBudget > maxRelBudget) { maxRelBudget = relBudget; chosen = name; }
+                });
+                budgets[chosen] -= slot.blocks;
+                return chosen;
+            });
+
+            // Paso 2: refinamiento local — para cada hueco, prueba cambiarlo a otro subgrupo elegible
+            // y conserva el cambio solo si reduce la desviación total frente al objetivo. Repite hasta
+            // que no haya más mejora posible (o se agote el número de pasadas de seguridad).
+            const actual = {};
+            subs.forEach(s => { actual[s.name] = 0; });
+            assignment.forEach((sub, i) => { actual[sub] += mealSlots[i].blocks; });
+
+            // Desviación relativa (no absoluta): así, si hay excedente inevitable, el algoritmo prefiere
+            // cargarlo sobre subgrupos con objetivo grande (donde supone un % pequeño) antes que sobre
+            // subgrupos con objetivo pequeño como Huevos (donde el mismo excedente sería un % enorme).
+            const totalDeviation = () => subs.reduce((acc, s) => {
+                const diff = Math.abs(actual[s.name] - targets[s.name]);
+                return acc + (diff / Math.max(1, targets[s.name]));
+            }, 0);
+
+            let improved = true;
+            let safety = 0;
+            while (improved && safety < 5) {
+                improved = false;
+                safety++;
+                for (let i = 0; i < assignment.length; i++) {
+                    const current = assignment[i];
+                    const pool = eligibilityBySlot[i];
+                    if (pool.length < 2) continue;
+
+                    let bestSub = current;
+                    let bestDev = totalDeviation();
+
+                    pool.forEach(candidate => {
+                        if (candidate === current) return;
+                        actual[current] -= mealSlots[i].blocks;
+                        actual[candidate] += mealSlots[i].blocks;
+                        const dev = totalDeviation();
+                        if (dev < bestDev) { bestDev = dev; bestSub = candidate; }
+                        actual[candidate] -= mealSlots[i].blocks;
+                        actual[current] += mealSlots[i].blocks;
+                    });
+
+                    if (bestSub !== current) {
+                        actual[current] -= mealSlots[i].blocks;
+                        actual[bestSub] += mealSlots[i].blocks;
+                        assignment[i] = bestSub;
+                        improved = true;
+                    }
+                }
+            }
+
+            return assignment;
+        }
+
+        function pickFoodFromSubgroup(cat, subName, rotationIndex, mealName) {
+            let list = foodDB.filter(f => f.cat === cat && f.sub === subName && isFoodAllowedForMeal(f, mealName));
+            if (list.length === 0) list = foodDB.filter(f => f.cat === cat && isFoodAllowedForMeal(f, mealName));
+            if (list.length === 0) list = foodDB.filter(f => f.cat === cat && f.sub === subName);
+            if (list.length === 0) list = foodDB.filter(f => f.cat === cat);
+            if (list.length === 0) return null;
+            return list[rotationIndex % list.length];
+        }
+
+        function buildMealSlotsForMacro(macro) {
+            const slots = [];
+            daysOfWeek.forEach(day => {
+                appState.meals.forEach(meal => {
+                    const canSplit = (macro === 'prot' || macro === 'carb') && isSmallMeal(meal.name);
+                    const parts = canSplit ? splitBlocksForSources(meal.blocks) : [meal.blocks];
+                    parts.forEach((blocks, sourceIdx) => {
+                        slots.push({ day, mealName: meal.name, blocks, sourceIdx });
+                    });
+                });
+            });
+            return slots;
+        }
+
+        function autoFillAllWeeklyMenu() {
+            const protSlots = buildMealSlotsForMacro('prot');
+            const carbSlots = buildMealSlotsForMacro('carb');
+            const fatSlots = buildMealSlotsForMacro('fat');
+
+            const protAssignment = allocateSubgroupsForCategory('prot', protSlots);
+            const carbAssignment = allocateSubgroupsForCategory('carb', carbSlots);
+            const fatAssignment = allocateSubgroupsForCategory('fat', fatSlots);
+
+            const rotation = { prot: {}, carb: {}, fat: {} };
+            const nextFood = (cat, subName, mealName) => {
+                if (!subName) return getFoodByCategory(cat, mealName);
+                rotation[cat][subName] = (rotation[cat][subName] || 0) + 1;
+                return pickFoodFromSubgroup(cat, subName, rotation[cat][subName] - 1, mealName);
+            };
+
+            appState.weeklyMenu = {};
+            daysOfWeek.forEach(day => {
+                appState.weeklyMenu[day] = {};
+                appState.meals.forEach(meal => {
+                    appState.weeklyMenu[day][meal.name] = { blocks: meal.blocks };
+                });
+            });
+
+            // FAT: siempre una única fuente por toma (sin dividir)
+            const firstFatFoodByMeal = {};
+            fatSlots.forEach((slot, i) => {
+                const subName = fatAssignment ? fatAssignment[i] : null;
+                const food = nextFood('fat', subName, slot.mealName);
+                appState.weeklyMenu[slot.day][slot.mealName].fat = { food: food.food, sub: food.sub, blocks: slot.blocks, grams: food.grams * slot.blocks };
+                firstFatFoodByMeal[`${slot.day}|${slot.mealName}`] = food;
+            });
+
+            // CARB: hasta 2 fuentes en tomas pequeñas (Desayuno, Media Mañana, Merienda)
+            const firstCarbFoodByMeal = {};
+            carbSlots.forEach((slot, i) => {
+                const subName = carbAssignment ? carbAssignment[i] : null;
+                const food = nextFood('carb', subName, slot.mealName);
+                const entry = { food: food.food, sub: food.sub, blocks: slot.blocks, grams: food.grams * slot.blocks };
+                const mealObj = appState.weeklyMenu[slot.day][slot.mealName];
+                if (slot.sourceIdx === 0) {
+                    mealObj.carb = entry;
+                    firstCarbFoodByMeal[`${slot.day}|${slot.mealName}`] = food;
+                } else {
+                    mealObj.carb2 = entry;
+                }
+            });
+
+            // PROT: hasta 2 fuentes en tomas pequeñas (Desayuno, Media Mañana, Merienda)
+            const firstProtFoodByMeal = {};
+            protSlots.forEach((slot, i) => {
+                const subName = protAssignment ? protAssignment[i] : null;
+                const food = nextFood('prot', subName, slot.mealName);
+                const entry = { food: food.food, sub: food.sub, blocks: slot.blocks, grams: food.grams * slot.blocks };
+                const mealObj = appState.weeklyMenu[slot.day][slot.mealName];
+                if (slot.sourceIdx === 0) {
+                    mealObj.prot = entry;
+                    firstProtFoodByMeal[`${slot.day}|${slot.mealName}`] = food;
+                } else {
+                    mealObj.prot2 = entry;
+                }
+            });
+
+            // Alimentos mixtos: se aplican solo con la fuente PRINCIPAL de cada macro,
+            // sobrescribiendo el slot principal del macro enlazado (nunca la "fuente 2").
+            daysOfWeek.forEach(day => {
+                appState.meals.forEach(meal => {
+                    const key = `${day}|${meal.name}`;
+                    const mealObj = appState.weeklyMenu[day][meal.name];
+                    if (firstProtFoodByMeal[key]) applyMixedFoodLink(mealObj, firstProtFoodByMeal[key], mealObj.prot.blocks);
+                    if (firstCarbFoodByMeal[key]) applyMixedFoodLink(mealObj, firstCarbFoodByMeal[key], mealObj.carb.blocks);
+                    if (firstFatFoodByMeal[key]) applyMixedFoodLink(mealObj, firstFatFoodByMeal[key], mealObj.fat.blocks);
+                });
+            });
+
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function clearWeeklyMenu() {
+            appState.weeklyMenu = {};
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function renderWeeklyMenu() {
+            const container = document.getElementById('weekly-menu-container');
+            const selectedDay = document.getElementById('menu-day-select').value;
+            
+            container.innerHTML = '';
+            
+            if(!appState.weeklyMenu[selectedDay]) {
+                generateDayMenu(selectedDay);
+                renderMatrixSummary();
+                saveDataToLocalStorage();
+            }
+
+            const dayData = appState.weeklyMenu[selectedDay];
+            const card = document.createElement('div');
+            card.className = 'bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4';
+            
+            let mealsHtml = '';
+            Object.keys(dayData).forEach(mealName => {
+                const m = dayData[mealName];
+                mealsHtml += `
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2.5">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div class="flex items-center gap-2">
+                                <span class="font-bold text-slate-800 text-sm">${mealName}</span>
+                                <span class="px-2 py-0.5 bg-medGreen-100 text-medGreen-800 rounded-full font-bold text-[10px]">${m.blocks} Bloques</span>
+                            </div>
+                            <button onclick="regenerateMeal('${selectedDay}', '${jsStr(mealName)}')" class="px-2.5 py-1 bg-white hover:bg-slate-100 border border-slate-300 rounded-lg text-[11px] font-semibold text-slate-700 transition flex items-center gap-1 shadow-sm">
+                                <i class="fa-solid fa-shuffle"></i> Aleatorio
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-600 italic flex items-center gap-1.5">
+                            <i class="fa-solid fa-utensils text-slate-400"></i>
+                            <span>${escapeAttr(buildMealRecipeText(m))}</span>
+                        </p>
+                        <div class="space-y-1.5">
+                            ${buildMacroGroup(selectedDay, mealName, 'prot', m, 'text-emerald-700', 'Prot')}
+                            ${buildMacroGroup(selectedDay, mealName, 'carb', m, 'text-amber-700', 'Carb')}
+                            ${buildMacroRow(selectedDay, mealName, 'fat', m, 'text-sky-700', 'Grasa')}
+                        </div>
+                    </div>
+                `;
+            });
+
+            card.innerHTML = `
+                <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+                    <h3 class="font-bold text-base text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-calendar-day text-medGreen-600"></i>
+                        Menú para el ${selectedDay}
+                    </h3>
+                    <button onclick="generateDayMenu('${selectedDay}'); renderWeeklyMenu(); renderMatrixSummary(); saveDataToLocalStorage();" class="text-xs text-medBlue-600 font-semibold hover:underline flex items-center gap-1">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Regenerar este día
+                    </button>
+                </div>
+                <div class="space-y-3">
+                    ${mealsHtml}
+                </div>
+            `;
+            container.appendChild(card);
+            renderGroceryList();
+        }
+
+        function applyMixedFoodLink(mealResult, foodObj, blocks) {
+            // Siempre sustituye el slot PRINCIPAL del macro enlazado (nunca crea una "fuente 2" ahí),
+            // igual que el comportamiento de un solo alimento por macro que había antes de admitir 2 fuentes.
+            if (foodObj && foodObj.linkedCat && foodObj.linkedSub) {
+                mealResult[foodObj.linkedCat] = { food: foodObj.food, sub: foodObj.linkedSub, blocks, grams: foodObj.grams * blocks };
+            }
+        }
+
+        function simplifyFoodName(name) {
+            if (!name) return '';
+            // Elimina paréntesis salvo que contengan un porcentaje (ej. "(90%)"), que sí aporta información relevante
+            let n = name.replace(/\([^)]*\)/g, (match) => match.includes('%') ? match : '').trim();
+            n = n.replace(/\s{2,}/g, ' ').trim();
+            n = n.split('/')[0].trim();
+            n = n.replace(/,\s*$/, '').trim();
+            return n;
+        }
+
+        function buildMealRecipeText(mealObj) {
+            if (!mealObj || !mealObj.prot || !mealObj.carb || !mealObj.fat) return '';
+            const rawNames = [mealObj.prot, mealObj.prot2, mealObj.carb, mealObj.carb2, mealObj.fat]
+                .filter(Boolean)
+                .map(entry => simplifyFoodName(entry.food).toLowerCase());
+
+            const unique = [];
+            rawNames.forEach(n => { if (n && !unique.includes(n)) unique.push(n); });
+
+            let txt;
+            if (unique.length === 1) txt = unique[0];
+            else txt = `${unique.slice(0, -1).join(', ')} y ${unique[unique.length - 1]}`;
+
+            return txt.charAt(0).toUpperCase() + txt.slice(1);
+        }
+
+        function buildMealRecipeTextWithBlocks(mealObj) {
+            if (!mealObj || !mealObj.prot || !mealObj.carb || !mealObj.fat) return '';
+            const entries = [mealObj.prot, mealObj.prot2, mealObj.carb, mealObj.carb2, mealObj.fat].filter(Boolean);
+
+            const merged = {};
+            entries.forEach(entry => {
+                const name = simplifyFoodName(entry.food);
+                const key = name.toLowerCase();
+                if (!merged[key]) merged[key] = { label: name, grams: entry.grams };
+            });
+
+            const parts = Object.values(merged).map(m => `${m.label} (${Math.round(m.grams)} g)`);
+            let txt;
+            if (parts.length === 1) txt = parts[0];
+            else txt = `${parts.slice(0, -1).join(', ')} y ${parts[parts.length - 1]}`;
+
+            txt = txt.charAt(0).toUpperCase() + txt.slice(1);
+            return escapeAttr(txt);
+        }
+
+        let weeklyTableViewMode = 'recipe';
+
+        function setWeeklyTableViewMode(mode) {
+            weeklyTableViewMode = mode;
+            renderWeeklyRecipeTable();
+        }
+
+        function buildMealCellContent(mealData, mode) {
+            if (!mealData) return '<span class="text-slate-300 italic">Sin generar</span>';
+
+            if (mode === 'subgroups') {
+                const line = (entry, entry2) => {
+                    const base = `${escapeAttr(entry.sub)} (${Math.round(entry.grams)} g)`;
+                    return entry2 ? `${base} + ${escapeAttr(entry2.sub)} (${Math.round(entry2.grams)} g)` : base;
+                };
+                return `
+                    <div class="space-y-0.5">
+                        <div><span class="text-emerald-700 font-bold">P:</span> ${line(mealData.prot, mealData.prot2)}</div>
+                        <div><span class="text-amber-700 font-bold">C:</span> ${line(mealData.carb, mealData.carb2)}</div>
+                        <div><span class="text-sky-700 font-bold">G:</span> ${line(mealData.fat)}</div>
+                    </div>
+                `;
+            }
+
+            const recipe = buildMealRecipeTextWithBlocks(mealData);
+            return recipe ? recipe : '<span class="text-slate-300 italic">Sin generar</span>';
+        }
+
+        function buildWeeklyRecipeTableHTML(mode) {
+            mode = mode || weeklyTableViewMode;
+            const dayLabels = { Lunes: "Lunes", Martes: "Martes", Miercoles: "Miércoles", Jueves: "Jueves", Viernes: "Viernes", Sabado: "Sábado", Domingo: "Domingo" };
+            const hasMenu = Object.keys(appState.weeklyMenu || {}).length > 0;
+
+            if (!hasMenu) {
+                return `<p class="text-sm text-slate-400 italic p-4">Genera el menú semanal (Autocompletar Todo) para ver esta tabla.</p>`;
+            }
+
+            let html = `<table class="w-full text-xs border-collapse min-w-[900px]">
+                <thead>
+                    <tr class="bg-slate-100">
+                        <th class="p-2.5 text-left font-bold text-slate-700 border border-slate-200 w-40">Toma</th>
+                        ${daysOfWeek.map(day => `<th class="p-2.5 text-center font-bold text-slate-700 border border-slate-200">${dayLabels[day]}</th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody>`;
+
+            appState.meals.forEach(meal => {
+                html += `<tr class="hover:bg-slate-50">
+                    <td class="p-2.5 border border-slate-200 align-top">
+                        <div class="font-bold text-slate-800">${escapeAttr(meal.name)}</div>
+                        <div class="text-[10px] text-slate-400 font-mono">${meal.blocks} bq</div>
+                    </td>
+                    ${daysOfWeek.map(day => {
+                        const dayData = appState.weeklyMenu[day];
+                        const mealData = dayData ? dayData[meal.name] : null;
+                        return `<td class="p-2.5 border border-slate-200 align-top text-slate-700">${buildMealCellContent(mealData, mode)}</td>`;
+                    }).join('')}
+                </tr>`;
+            });
+
+            html += `</tbody></table>`;
+            return html;
+        }
+
+        function renderWeeklyRecipeTable() {
+            const el = document.getElementById('weekly-recipe-table');
+            if (!el) return;
+            el.innerHTML = buildWeeklyRecipeTableHTML();
+        }
+
+        function printWeeklyRecipeTable() {
+            const mode = weeklyTableViewMode;
+            const tableHtml = buildWeeklyRecipeTableHTML(mode);
+            const subtitle = mode === 'subgroups'
+                ? 'Subgrupos utilizados (Proteína / Carbohidrato / Grasa) por toma y día'
+                : 'Receta sencilla por toma y día, con los bloques correspondientes';
+
+            const win = window.open('', '_blank');
+            if (!win) { alert('Permite las ventanas emergentes para poder imprimir.'); return; }
+            win.document.write(`
+                <!DOCTYPE html>
+                <html lang="es">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Menú Semanal - Dieta Mediterránea</title>
+                    <style>
+                        body { font-family: Arial, Helvetica, sans-serif; padding: 24px; color: #1e293b; }
+                        h1 { font-size: 18px; margin-bottom: 4px; }
+                        p.subtitle { font-size: 12px; color: #64748b; margin-top: 0; margin-bottom: 16px; }
+                        table { width: 100%; border-collapse: collapse; }
+                        th, td { border: 1px solid #cbd5e1; padding: 8px; font-size: 12px; text-align: left; vertical-align: top; }
+                        th { background: #f1f5f9; }
+                    </style>
+                </head>
+                <body>
+                    <h1>Menú Semanal - Dieta Mediterránea por Bloques</h1>
+                    <p class="subtitle">${subtitle}</p>
+                    ${tableHtml}
+                </body>
+                </html>
+            `);
+            win.document.close();
+            win.focus();
+            setTimeout(() => win.print(), 250);
+        }
+
+        function buildMacroRow(day, mealName, macroKey, mealObj, colorClass, label) {
+            const info = mealObj[macroKey];
+            const cat = macroKey.replace('2', '');
+            const subOptions = appState.subgroups.filter(s => s.cat === cat).map(s => s.name);
+            const subList = subOptions.includes(info.sub) ? subOptions : [info.sub, ...subOptions];
+
+            const foodOptionsAll = foodDB.filter(f => f.cat === cat && f.sub === info.sub);
+            const foodOptionsCompatible = foodOptionsAll.filter(f => isFoodAllowedForMeal(f, mealName));
+            const foodOptions = foodOptionsCompatible.length > 0 ? foodOptionsCompatible : foodOptionsAll;
+            const foodList = foodOptions.some(f => f.food === info.food)
+                ? foodOptions
+                : [{ food: info.food, sub: info.sub }, ...foodOptions];
+
+            const catLabelMap = { prot: 'Proteína', carb: 'Hidrato', fat: 'Grasa' };
+            const currentFoodDef = foodDB.find(f => f.cat === cat && f.food === info.food);
+            const linkNote = (currentFoodDef && currentFoodDef.linkedCat)
+                ? `<span class="text-[10px] text-medBlue-600 font-semibold flex items-center gap-1" title="Este alimento también cuenta como bloque de ${catLabelMap[currentFoodDef.linkedCat]}"><i class="fa-solid fa-link"></i> +${catLabelMap[currentFoodDef.linkedCat]}</span>`
+                : '';
+
+            return `
+                <div class="flex flex-wrap items-center gap-1.5">
+                    <strong class="${colorClass} text-xs w-11 shrink-0">${label}:</strong>
+                    <select onchange="updateMealSubgroup('${jsStr(day)}', '${jsStr(mealName)}', '${macroKey}', this.value)" class="px-1.5 py-1 border border-slate-200 rounded-lg text-[11px] bg-white focus:ring-1 focus:ring-medGreen-500 focus:outline-none max-w-[150px]">
+                        ${subList.map(s => `<option value="${escapeAttr(s)}" ${s === info.sub ? 'selected' : ''}>${escapeAttr(s)}</option>`).join('')}
+                    </select>
+                    <select onchange="updateMealFoodChoice('${jsStr(day)}', '${jsStr(mealName)}', '${macroKey}', this.value)" class="px-1.5 py-1 border border-slate-200 rounded-lg text-[11px] bg-white focus:ring-1 focus:ring-medGreen-500 focus:outline-none max-w-[170px] flex-1 min-w-0">
+                        ${foodList.map(f => `<option value="${escapeAttr(f.food)}" ${f.food === info.food ? 'selected' : ''}>${escapeAttr(f.food)}</option>`).join('')}
+                    </select>
+                    <span class="text-slate-400 text-[11px] font-mono shrink-0">${info.blocks}bq · ${info.grams}g</span>
+                    ${linkNote}
+                </div>
+            `;
+        }
+
+        function buildMacroGroup(day, mealName, macro, mealObj, colorClass, label) {
+            const key2 = macro + '2';
+            const hasSecond = !!mealObj[key2];
+            const canSplit = isSmallMeal(mealName) && mealObj[macro].blocks + (mealObj[key2] ? mealObj[key2].blocks : 0) >= 2;
+
+            let html = buildMacroRow(day, mealName, macro, mealObj, colorClass, label);
+
+            if (hasSecond) {
+                html += buildMacroRow(day, mealName, key2, mealObj, colorClass, `+${label}`);
+                html += `
+                    <div class="pl-11">
+                        <button onclick="removeSecondSource('${jsStr(day)}', '${jsStr(mealName)}', '${macro}')" class="text-[10px] text-slate-400 hover:text-red-500 flex items-center gap-1">
+                            <i class="fa-solid fa-xmark"></i> Quitar 2ª fuente de ${label}
+                        </button>
+                    </div>
+                `;
+            } else if (canSplit) {
+                html += `
+                    <div class="pl-11">
+                        <button onclick="addSecondSource('${jsStr(day)}', '${jsStr(mealName)}', '${macro}')" class="text-[10px] text-medBlue-600 hover:text-medBlue-800 flex items-center gap-1">
+                            <i class="fa-solid fa-plus"></i> Añadir 2ª fuente de ${label}
+                        </button>
+                    </div>
+                `;
+            }
+
+            return html;
+        }
+
+        function addSecondSource(day, mealName, macro) {
+            const meal = appState.weeklyMenu[day][mealName];
+            const totalBlocks = meal[macro].blocks;
+            if (totalBlocks < 2) return;
+
+            const parts = splitBlocksForSources(totalBlocks);
+            const firstFoodDef = foodDB.find(f => f.cat === macro && f.food === meal[macro].food);
+            const gramsPerBlock1 = firstFoodDef ? firstFoodDef.grams : (meal[macro].grams / meal[macro].blocks);
+            meal[macro] = { food: meal[macro].food, sub: meal[macro].sub, blocks: parts[0], grams: gramsPerBlock1 * parts[0] };
+
+            const secondFood = getFoodByCategory(macro, mealName);
+            meal[macro + '2'] = { food: secondFood.food, sub: secondFood.sub, blocks: parts[1], grams: secondFood.grams * parts[1] };
+
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function removeSecondSource(day, mealName, macro) {
+            const meal = appState.weeklyMenu[day][mealName];
+            const key2 = macro + '2';
+            if (!meal[key2]) return;
+
+            const totalBlocks = meal[macro].blocks + meal[key2].blocks;
+            const foodDef = foodDB.find(f => f.cat === macro && f.food === meal[macro].food);
+            const gramsPerBlock = foodDef ? foodDef.grams : (meal[macro].grams / meal[macro].blocks);
+            meal[macro] = { food: meal[macro].food, sub: meal[macro].sub, blocks: totalBlocks, grams: gramsPerBlock * totalBlocks };
+            delete meal[key2];
+
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function updateMealSubgroup(day, mealName, macroKey, subName) {
+            const meal = appState.weeklyMenu[day][mealName];
+            const cat = macroKey.replace('2', '');
+            const entryBlocks = meal[macroKey].blocks;
+
+            let candidates = foodDB.filter(f => f.cat === cat && f.sub === subName && isFoodAllowedForMeal(f, mealName));
+            if (candidates.length === 0) candidates = foodDB.filter(f => f.cat === cat && f.sub === subName);
+            const food = candidates.length > 0 ? candidates[Math.floor(Math.random() * candidates.length)] : null;
+
+            if (food) {
+                meal[macroKey] = { food: food.food, sub: food.sub, blocks: entryBlocks, grams: food.grams * entryBlocks };
+                if (macroKey === 'prot' || macroKey === 'carb') applyMixedFoodLink(meal, food, entryBlocks);
+            } else {
+                meal[macroKey] = { food: meal[macroKey].food, sub: subName, blocks: entryBlocks, grams: meal[macroKey].grams };
+            }
+
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function updateMealFoodChoice(day, mealName, macroKey, foodName) {
+            const meal = appState.weeklyMenu[day][mealName];
+            const cat = macroKey.replace('2', '');
+            const entryBlocks = meal[macroKey].blocks;
+            const food = foodDB.find(f => f.cat === cat && f.food === foodName);
+            if (!food) return;
+
+            meal[macroKey] = { food: food.food, sub: food.sub, blocks: entryBlocks, grams: food.grams * entryBlocks };
+            if (macroKey === 'prot' || macroKey === 'carb') applyMixedFoodLink(meal, food, entryBlocks);
+
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function regenerateMeal(day, mealName) {
+            const blocks = appState.weeklyMenu[day][mealName].blocks;
+            const mealResult = { blocks: blocks };
+
+            let fFood = getFoodByCategory('fat', mealName);
+            mealResult.fat = { food: fFood.food, sub: fFood.sub, blocks: blocks, grams: fFood.grams * blocks };
+
+            const carbParts = isSmallMeal(mealName) ? splitBlocksForSources(blocks) : [blocks];
+            let firstCFood = null;
+            carbParts.forEach((b, idx) => {
+                const food = getFoodByCategory('carb', mealName);
+                if (idx === 0) firstCFood = food;
+                const entry = { food: food.food, sub: food.sub, blocks: b, grams: food.grams * b };
+                if (idx === 0) mealResult.carb = entry; else mealResult.carb2 = entry;
+            });
+
+            const protParts = isSmallMeal(mealName) ? splitBlocksForSources(blocks) : [blocks];
+            let firstPFood = null;
+            protParts.forEach((b, idx) => {
+                const food = getFoodByCategory('prot', mealName);
+                if (idx === 0) firstPFood = food;
+                const entry = { food: food.food, sub: food.sub, blocks: b, grams: food.grams * b };
+                if (idx === 0) mealResult.prot = entry; else mealResult.prot2 = entry;
+            });
+
+            applyMixedFoodLink(mealResult, firstPFood, mealResult.prot.blocks);
+            applyMixedFoodLink(mealResult, firstCFood, mealResult.carb.blocks);
+            applyMixedFoodLink(mealResult, fFood, blocks);
+
+            appState.weeklyMenu[day][mealName] = mealResult;
+            renderWeeklyMenu();
+            renderMatrixSummary();
+            saveDataToLocalStorage();
+        }
+
+        function computeGroceryTotals() {
+            daysOfWeek.forEach(day => {
+                if (!appState.weeklyMenu[day]) generateDayMenu(day);
+            });
+
+            const totals = {}; // key: cat|sub|food -> grams acumulados
+            daysOfWeek.forEach(day => {
+                const dayData = appState.weeklyMenu[day];
+                if (!dayData) return;
+                Object.values(dayData).forEach(meal => {
+                    MACRO_SLOT_KEYS.forEach(key => {
+                        const info = meal[key];
+                        if (!info) return;
+                        const cat = key.replace('2', '');
+                        const groupKey = `${cat}|${info.sub}|${info.food}`;
+                        totals[groupKey] = (totals[groupKey] || 0) + info.grams;
+                    });
+                });
+            });
+
+            const bySubgroup = {};
+            Object.keys(totals).forEach(key => {
+                const [cat, sub, food] = key.split('|');
+                const groupKey = `${cat}|${sub}`;
+                if (!bySubgroup[groupKey]) bySubgroup[groupKey] = { cat, sub, items: [] };
+                bySubgroup[groupKey].items.push({ food, grams: Math.round(totals[key]) });
+            });
+
+            return bySubgroup;
+        }
+
+        function printGroceryList() {
+            const bySubgroup = computeGroceryTotals();
+            const catMeta = {
+                prot: { label: 'Proteínas' },
+                carb: { label: 'Carbohidratos' },
+                fat: { label: 'Grasas Saludables' }
+            };
+
+            let columnsHtml = '';
+            ['prot', 'carb', 'fat'].forEach(cat => {
+                const meta = catMeta[cat];
+                const subgroupsInCat = appState.subgroups.filter(s => s.cat === cat);
+
+                let subHtml = '';
+                subgroupsInCat.forEach(s => {
+                    const group = bySubgroup[`${cat}|${s.name}`];
+                    subHtml += `
+                        <div class="subgroup">
+                            <h4>${escapeAttr(s.name)}</h4>
+                            <ul>
+                                ${group && group.items.length > 0
+                                    ? group.items.map(item => `<li><span>☐ ${escapeAttr(item.food)}</span><strong>${item.grams} g</strong></li>`).join('')
+                                    : '<li class="empty">No usado esta semana</li>'
+                                }
+                            </ul>
+                        </div>
+                    `;
+                });
+
+                columnsHtml += `<div class="col"><h3>${meta.label}</h3>${subHtml || '<p class="empty">No hay subgrupos definidos.</p>'}</div>`;
+            });
+
+            const win = window.open('', '_blank');
+            if (!win) { alert('Permite las ventanas emergentes para poder imprimir.'); return; }
+            win.document.write(`
+                <!DOCTYPE html>
+                <html lang="es">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Lista de la Compra - Dieta Mediterránea</title>
+                    <style>
+                        body { font-family: Arial, Helvetica, sans-serif; padding: 24px; color: #1e293b; }
+                        h1 { font-size: 18px; margin-bottom: 4px; }
+                        p.subtitle { font-size: 12px; color: #64748b; margin-top: 0; margin-bottom: 20px; }
+                        .cols { display: flex; gap: 24px; align-items: flex-start; }
+                        .col { flex: 1; }
+                        .col h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.03em; border-bottom: 2px solid #1e293b; padding-bottom: 6px; margin-bottom: 10px; }
+                        .subgroup { margin-bottom: 14px; }
+                        .subgroup h4 { font-size: 11px; text-transform: uppercase; color: #64748b; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin: 0 0 6px 0; }
+                        ul { list-style: none; margin: 0; padding: 0; }
+                        li { display: flex; justify-content: space-between; font-size: 12px; padding: 3px 0; border-bottom: 1px dotted #e2e8f0; }
+                        li.empty { color: #94a3b8; font-style: italic; border-bottom: none; }
+                        p.empty { color: #94a3b8; font-style: italic; font-size: 12px; }
+                        @media print { .cols { display: flex; } }
+                    </style>
+                </head>
+                <body>
+                    <h1>Lista de la Compra Semanal - Dieta Mediterránea</h1>
+                    <p class="subtitle">Calculada a partir de los subgrupos y el menú semanal generado</p>
+                    <div class="cols">${columnsHtml}</div>
+                </body>
+                </html>
+            `);
+            win.document.close();
+            win.focus();
+            setTimeout(() => win.print(), 250);
+        }
+
+        function renderGroceryList() {
+            const container = document.getElementById('grocery-list-container');
+            container.innerHTML = '';
+
+            const bySubgroup = computeGroceryTotals();
+
+            const catMeta = {
+                prot: { label: 'Proteínas', icon: 'fa-drumstick-bite', color: 'emerald' },
+                carb: { label: 'Carbohidratos', icon: 'fa-wheat-awn', color: 'amber' },
+                fat: { label: 'Grasas Saludables', icon: 'fa-bottle-droplet', color: 'sky' }
+            };
+
+            ['prot', 'carb', 'fat'].forEach(cat => {
+                const meta = catMeta[cat];
+                const subgroupsInCat = appState.subgroups.filter(s => s.cat === cat);
+
+                const col = document.createElement('div');
+                col.className = 'bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-4';
+
+                let subHtml = '';
+                subgroupsInCat.forEach(s => {
+                    const group = bySubgroup[`${cat}|${s.name}`];
+                    subHtml += `
+                        <div>
+                            <h4 class="text-[11px] font-bold text-slate-500 uppercase tracking-wide pb-1 border-b border-slate-200 mb-1.5">${escapeAttr(s.name)}</h4>
+                            <ul class="space-y-1">
+                                ${group && group.items.length > 0
+                                    ? group.items.map(item => `
+                                        <li class="flex items-center justify-between text-xs py-1 border-b border-slate-200/60">
+                                            <span class="font-medium text-slate-800 flex items-center gap-2 min-w-0">
+                                                <input type="checkbox" class="rounded text-medGreen-600 focus:ring-medGreen-500 w-4 h-4 shrink-0">
+                                                <span class="truncate">${escapeAttr(item.food)}</span>
+                                            </span>
+                                            <span class="font-bold text-medGreen-700 shrink-0 ml-2">${item.grams} g</span>
+                                        </li>
+                                    `).join('')
+                                    : '<li class="text-[11px] text-slate-400 italic">No usado esta semana</li>'
+                                }
+                            </ul>
+                        </div>
+                    `;
+                });
+
+                col.innerHTML = `
+                    <h3 class="font-bold text-sm text-${meta.color}-800 flex items-center gap-2">
+                        <i class="fa-solid ${meta.icon}"></i> ${meta.label}
+                    </h3>
+                    ${subHtml || '<p class="text-xs text-slate-400 italic">No hay subgrupos definidos.</p>'}
+                `;
+                container.appendChild(col);
+            });
+        }
+
+        function calculateIMCAndBodyFat(weight = 75, height = 175, age = 35, sex = 'male') {
+            const heightM = height / 100;
+            const imc = weight / (heightM * heightM);
+            
+            document.getElementById('imc-value').textContent = imc.toFixed(1);
+            
+            let imcStatus = "";
+            let imcBadgeClass = "";
+            let imcPosPct = 0;
+
+            if (imc < 18.5) {
+                imcStatus = "Delgadez";
+                imcBadgeClass = "bg-sky-50 text-sky-700 border-sky-200";
+                imcPosPct = (imc / 18.5) * 14;
+            } else if (imc < 25) {
+                imcStatus = "Normopeso (Saludable)";
+                imcBadgeClass = "bg-emerald-50 text-emerald-700 border-emerald-200";
+                imcPosPct = 14 + ((imc - 18.5) / 6.5) * 26;
+            } else if (imc < 30) {
+                imcStatus = "Sobrepeso";
+                imcBadgeClass = "bg-amber-50 text-amber-700 border-amber-200";
+                imcPosPct = 40 + ((imc - 25) / 5) * 20;
+            } else if (imc < 35) {
+                imcStatus = "Obesidad Grado I";
+                imcBadgeClass = "bg-orange-50 text-orange-700 border-orange-200";
+                imcPosPct = 60 + ((imc - 30) / 5) * 20;
+            } else {
+                imcStatus = "Obesidad Grado II / III";
+                imcBadgeClass = "bg-rose-50 text-rose-700 border-rose-200";
+                imcPosPct = 80 + Math.min(((imc - 35) / 10) * 20, 20);
+            }
+
+            const imcBadge = document.getElementById('imc-status-badge');
+            imcBadge.textContent = imcStatus;
+            imcBadge.className = `px-3 py-1 rounded-full text-xs font-bold border ${imcBadgeClass}`;
+
+            const imcArrow = document.getElementById('imc-arrow-container');
+            imcArrow.style.left = `${Math.max(2, Math.min(98, imcPosPct))}%`;
+            document.getElementById('imc-arrow-label').textContent = `${imc.toFixed(1)}`;
+
+            const bodyFat = calculateDeurenbergBodyFat(weight, height, age, sex);
+            
+            document.getElementById('fat-value').textContent = bodyFat.toFixed(1);
+
+            renderBodyFatScale(bodyFat, sex);
+        }
+
+        function renderBodyFatScale(fat, sex) {
+            const segmentsContainer = document.getElementById('fat-bar-segments');
+            const legendGrid = document.getElementById('fat-legend-grid');
+            const fatBadge = document.getElementById('fat-status-badge');
+            const refFitness = document.getElementById('fat-ref-fitness');
+            const refAcceptable = document.getElementById('fat-ref-acceptable');
+
+            let ranges = [];
+            if (sex === 'male') {
+                ranges = [
+                    { label: "Esencial", max: 6, color: "bg-sky-400", width: "15%" },
+                    { label: "Atleta", max: 14, color: "bg-emerald-500", width: "20%" },
+                    { label: "Fitness", max: 18, color: "bg-medGreen-500", width: "20%" },
+                    { label: "Aceptable", max: 25, color: "bg-amber-400", width: "25%" },
+                    { label: "Elevado", max: 50, color: "bg-rose-600", width: "20%" }
+                ];
+                refFitness.textContent = "Atleta/Fitness: 10% - 18%";
+                refAcceptable.textContent = "Aceptable: 18% - 25%";
+            } else {
+                ranges = [
+                    { label: "Esencial", max: 13, color: "bg-sky-400", width: "15%" },
+                    { label: "Atleta", max: 21, color: "bg-emerald-500", width: "20%" },
+                    { label: "Fitness", max: 25, color: "bg-medGreen-500", width: "20%" },
+                    { label: "Aceptable", max: 32, color: "bg-amber-400", width: "25%" },
+                    { label: "Elevado", max: 50, color: "bg-rose-600", width: "20%" }
+                ];
+                refFitness.textContent = "Atleta/Fitness: 15% - 25%";
+                refAcceptable.textContent = "Aceptable: 25% - 32%";
+            }
+
+            segmentsContainer.innerHTML = '';
+            legendGrid.innerHTML = '';
+
+            ranges.forEach(r => {
+                const seg = document.createElement('div');
+                seg.className = `${r.color} h-full`;
+                seg.style.width = r.width;
+                seg.title = `Rango ${r.label} (< ${r.max}%)`;
+                segmentsContainer.appendChild(seg);
+
+                const leg = document.createElement('span');
+                leg.className = "truncate";
+                leg.innerHTML = `<span class="text-[9px] font-semibold text-slate-700">${r.label}</span>`;
+                legendGrid.appendChild(leg);
+            });
+
+            let fatStatus = "Saludable";
+            let fatBadgeClass = "bg-emerald-50 text-emerald-700 border-emerald-200";
+            let fatPosPct = 50;
+
+            if (fat < ranges[0].max) { fatStatus = "Esencial / Bajo"; fatBadgeClass = "bg-sky-50 text-sky-700 border-sky-200"; fatPosPct = 10; }
+            else if (fat < ranges[1].max) { fatStatus = "Atleta"; fatBadgeClass = "bg-emerald-50 text-emerald-700 border-emerald-200"; fatPosPct = 25; }
+            else if (fat < ranges[2].max) { fatStatus = "Fitness (Ideal)"; fatBadgeClass = "bg-medGreen-50 text-medGreen-700 border-medGreen-200"; fatPosPct = 45; }
+            else if (fat < ranges[3].max) { fatStatus = "Aceptable"; fatBadgeClass = "bg-amber-50 text-amber-700 border-amber-200"; fatPosPct = 70; }
+            else { fatStatus = "Exceso de Grasa"; fatBadgeClass = "bg-rose-50 text-rose-700 border-rose-200"; fatPosPct = 90; }
+
+            fatBadge.textContent = fatStatus;
+            fatBadge.className = `px-3 py-1 rounded-full text-xs font-bold border ${fatBadgeClass}`;
+
+            const fatArrow = document.getElementById('fat-arrow-container');
+            if(fatArrow) {
+                fatArrow.style.left = `${Math.max(2, Math.min(98, fatPosPct))}%`;
+                document.getElementById('fat-arrow-label').textContent = `${fat.toFixed(1)}%`;
+            }
+        }
+
+        let weightChartInstance = null;
+
+        function initProgressChart() {
+            const ctx = document.getElementById('progressChart');
+            if(!ctx) return;
+
+            if (weightChartInstance) {
+                weightChartInstance.destroy();
+            }
+
+            weightChartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Evolución de Peso (kg)',
+                        data: [],
+                        borderColor: '#16a34a',
+                        backgroundColor: 'rgba(22, 163, 74, 0.1)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#16a34a'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: true, position: 'top' }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            title: { display: true, text: 'Peso (kg)' }
+                        },
+                        x: {
+                            title: { display: true, text: 'Fecha' }
+                        }
+                    }
+                }
+            });
+            updateProgressChart();
+        }
+
+        function addWeightRecord() {
+            const dateInput = document.getElementById('chart-date');
+            const weightInput = document.getElementById('chart-weight-val');
+            
+            const dateVal = dateInput ? dateInput.value : '';
+            const weightVal = weightInput ? parseFloat(weightInput.value) : NaN;
+
+            if(!dateVal || isNaN(weightVal) || weightVal <= 0) {
+                alert("Por favor, introduce una fecha y un peso válidos.");
+                return;
+            }
+
+            if(!appState.weightHistory) appState.weightHistory = [];
+            
+            const existingIndex = appState.weightHistory.findIndex(r => r.date === dateVal);
+            if(existingIndex >= 0) {
+                appState.weightHistory[existingIndex].weight = weightVal;
+            } else {
+                appState.weightHistory.push({ date: dateVal, weight: weightVal });
+            }
+
+            appState.weightHistory.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            if(appState.weightHistory.length > 0) {
+                const latest = appState.weightHistory[appState.weightHistory.length - 1];
+                const calcWeight = document.getElementById('calc-weight');
+                if(calcWeight) {
+                    calcWeight.value = latest.weight;
+                    recalculateAll();
+                }
+            }
+
+            if(weightInput) weightInput.value = '';
+            renderWeightHistory();
+            updateProgressChart();
+            saveDataToLocalStorage();
+        }
+
+        function deleteWeightRecord(index) {
+            if(!appState.weightHistory) return;
+            appState.weightHistory.splice(index, 1);
+            renderWeightHistory();
+            updateProgressChart();
+            saveDataToLocalStorage();
+        }
+
+        function renderWeightHistory() {
+            const tbody = document.getElementById('weight-history-body');
+            if(!tbody) return;
+            tbody.innerHTML = '';
+
+            if(!appState.weightHistory || appState.weightHistory.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="3" class="p-3 text-center text-slate-400">Sin registros de peso.</td></tr>`;
+                return;
+            }
+
+            appState.weightHistory.forEach((rec, idx) => {
+                const tr = document.createElement('tr');
+                tr.className = 'border-b border-slate-100 hover:bg-slate-50';
+                tr.innerHTML = `
+                    <td class="p-2 text-slate-700 font-medium">${rec.date}</td>
+                    <td class="p-2 font-bold text-slate-900">${rec.weight} kg</td>
+                    <td class="p-2">
+                        <button onclick="deleteWeightRecord(${idx})" class="text-rose-500 hover:text-rose-700 p-1" title="Eliminar">
+                            <i class="fa-solid fa-trash-can text-xs"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function updateProgressChart() {
+            if(!weightChartInstance) return;
+            const history = appState.weightHistory || [];
+            
+            weightChartInstance.data.labels = history.map(h => h.date);
+            weightChartInstance.data.datasets[0].data = history.map(h => h.weight);
+            weightChartInstance.update();
+        }
+    </script>
+</body>
+</html>
